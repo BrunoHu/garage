@@ -1,3 +1,4 @@
+# encoding:utf-8
 import numpy as np
 import math
 import random
@@ -25,7 +26,6 @@ def kmeans(dataset, k=2, demension=2):
     empty_set = []
     for i in range(k):
         empty_set.append([])
-    # divide_set = copy.deepcopy(empty_set)
     centers = []
     residation = [10]*k
     temp = [0] * k
@@ -35,14 +35,11 @@ def kmeans(dataset, k=2, demension=2):
     while(sum(residation)>0.0001):
         divide_set = copy.deepcopy(empty_set)
         for i in dataset:
-            # print "i:  " + str(i)
             for j in range(k):
                 temp[j] = distance(i, centers[j], demension)
-            # print "temp: " + str(temp)
             for j in range(k):
                 if temp[j] == min(temp):
                     divide_set[j].append(i)
-        # print 'divide_set' + str(divide_set)
         for j in range(k):
             residation[j] = distance(get_center(divide_set[j]), centers[j])
             centers[j] = copy.deepcopy(get_center(divide_set[j]))
@@ -62,20 +59,18 @@ def split_tuple(centers):
         result[0].append(i[0])
         result[1].append(i[1])
     return result
-# def compare(list1, list2, digit=5):
-#     for i in range(len(list1)):
-#         if distance(list1[i], list2[i]) > math.pow(0.1, digit):
-#             return False
-#     return True
 
-#start test
+
+
+
+#just check algorithm and give a visiual picture
 data = []
-for i in range(200):
+print u'这是一个k-means算法及其实例程序，程序会创建随机点集并自动使用k-means算法进行聚类，并给出一个效果图（算法本身中并没有效果图的实现）'
+n = input('请输入随机点的个数：')
+k = input('请输入划分集合的个数k(小于8)：')
+for i in range(n):
     data.append(produce_random_point())
-print data
-k = 5
 centers = kmeans(data, k)
-print centers
 
 
 color = np.random.rand(k)
@@ -84,10 +79,11 @@ for i in range(k):
     centers[1][i] = split_tuple(centers[1][i])
 
 
-
+color = ['b','g', 'r', 'c', 'm', 'y', 'k', 'w']
 
 plt.figure(1)
 for i in range(k):
-    plt.scatter(centers[1][i][0], centers[1][i][1])
-plt.scatter(centers[0][1], centers[0][1])
+    plt.scatter(centers[1][i][0], centers[1][i][1], color=color[i])
+    plt.triplot(centers[1][i][0], centers[1][i][1], linewidth=0.1)
+plt.scatter(centers[0][0], centers[0][1], marker='*', s=100)
 plt.show()
