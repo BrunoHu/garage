@@ -6,6 +6,7 @@ from kmeans import *
 #just check algorithm and give a visiual picture
 
 def random_color(k):
+    # generate a random color code like '#225c6f'
     color_rgb_element = ['0','1','2','3','4','5','6','7','8','9','a','b','c','d','e','f']
     color = []
     for i in range(k):
