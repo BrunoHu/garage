@@ -2,7 +2,7 @@
 import math
 import random
 import copy
-import matplotlib.pyplot as plt
+
 
 def distance(point1, point2, demension=2):
     sum = 0

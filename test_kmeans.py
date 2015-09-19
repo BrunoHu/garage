@@ -1,6 +1,6 @@
 # encoding:utf-8
 from kmeans import *
-
+import matplotlib.pyplot as plt
 
 
 #just check algorithm and give a visiual picture
