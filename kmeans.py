@@ -46,16 +46,5 @@ def kmeans(dataset, k=2, demension=2):
     return [centers,divide_set]
 
 
-def produce_random_point(demension=2,  limit_size=100):
-    point = []
-    for i in range(demension):
-        point.append(random.randint(1,limit_size))
-    return tuple(point)
 
-def split_tuple(centers):
-    result = [[],[]]
-    for i in centers:
-        result[0].append(i[0])
-        result[1].append(i[1])
-    return result
 

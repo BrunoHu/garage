@@ -16,6 +16,19 @@ def random_color(k):
         color.append(temp)
     return color
 
+def produce_random_point(demension=2,  limit_size=100):
+    point = []
+    for i in range(demension):
+        point.append(random.randint(1,limit_size))
+    return tuple(point)
+
+def split_tuple(centers):
+    result = [[],[]]
+    for i in centers:
+        result[0].append(i[0])
+        result[1].append(i[1])
+    return result
+
 data = []
 print '这是一个k-means算法及其实例程序，程序会创建随机点集并自动使用k-means算法进行聚类，并给出一个效果图（算法本身中并没有效果图的实现）'
 print '请输入随机点的个数：'
