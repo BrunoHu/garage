@@ -60,30 +60,3 @@ def split_tuple(centers):
         result[1].append(i[1])
     return result
 
-
-
-
-#just check algorithm and give a visiual picture
-data = []
-print u'这是一个k-means算法及其实例程序，程序会创建随机点集并自动使用k-means算法进行聚类，并给出一个效果图（算法本身中并没有效果图的实现）'
-n = input('请输入随机点的个数：')
-k = input('请输入划分集合的个数k(小于8)：')
-for i in range(n):
-    data.append(produce_random_point())
-centers = kmeans(data, k)
-
-
-color = np.random.rand(k)
-centers[0] = split_tuple(centers[0])
-for i in range(k):
-    centers[1][i] = split_tuple(centers[1][i])
-
-
-color = ['b','g', 'r', 'c', 'm', 'y', 'k', 'w']
-
-plt.figure(1)
-for i in range(k):
-    plt.scatter(centers[1][i][0], centers[1][i][1], color=color[i])
-    plt.triplot(centers[1][i][0], centers[1][i][1], linewidth=0.1)
-plt.scatter(centers[0][0], centers[0][1], marker='*', s=100)
-plt.show()
