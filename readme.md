@@ -6,6 +6,7 @@ This is a garage to store my handwrite algorithms, especiall for data analysis. 
 This algorithm is famous and easy.
 `kmeans.py` is the code file which only have the kmeans function.
 `test_kmeans.py` is a test file for upper file. You could get a visual glance for this algorithm.
+`test_kmeans.png` is a example graph for a overview.
 
 ##args
 * dataset
