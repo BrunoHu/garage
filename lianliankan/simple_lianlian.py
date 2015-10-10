@@ -66,14 +66,7 @@ def is_linked(matrix, flag):
     node_in_depth_0.extend(search_with_direction(0, matrix, position[0], flag))
     if  ('ok' in node_in_depth_0):
         return True, position
-    # else:
-    #     for i in node_in_depth_0:
-    #         if (search_with_direction(3-i[1], matrix, i[0]) == 'ok'):
-    #             return True,position
-    #         else:
-    #             for j in search_with_direction(3-i[1], matrix, i[0]):
-    #                 if(search_with_direction(3-j[1], matrix, j[0]) == 'ok'):
-    #                     return True,position
+
     node_in_depth_1 = []
     for i in node_in_depth_0:
         temp = search_with_direction(i[1], matrix, i[0], flag)
@@ -232,8 +225,6 @@ if __name__ == '__main__':
         else:
             break
 
-    # for i in range(len(matrix)):
-    #     print matrix[i]
     print 'The fllowing random matrix was generated:'
     show(matrix)
     box = range(1, length*width/2+1)
@@ -266,19 +257,3 @@ if __name__ == '__main__':
                     show(matrix)
                 print 'Next round'
 
-
-
-
-
-    # while True:
-    #     v = input('vanish:')
-    #     matrix = vanish(v, matrix)
-    #     show(matrix)
-    #     flag = input('input flag:')
-    #     position = []
-    #     for k in matrix:
-    #         for q in k:
-    #             if q[2] == flag:
-    #                 position = [q[0], q[1]]
-    #                 break
-    #     print is_linked(matrix, flag)
