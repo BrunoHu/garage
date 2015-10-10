@@ -47,7 +47,12 @@ def show(matrix):
     length = len(matrix[0])
     for i in range(width):
         for j in range(length):
-            print str(matrix[i][j][2]) + '\t',
+            if matrix[i][j][2] == 0:
+                print ' ' + '\t',
+            elif matrix[i][j][2] == -1:
+                print ' ' + '\t',
+            else:
+                print str(matrix[i][j][2]) + '\t',
         print '\n'
 
 
@@ -59,7 +64,6 @@ def is_linked(matrix, flag):
                 position.append([j[0], j[1]])
     node_in_depth_0 =[]
     node_in_depth_0.extend(search_with_direction(0, matrix, position[0], flag))
-    print node_in_depth_0
     if  ('ok' in node_in_depth_0):
         return True, position
     # else:
@@ -76,14 +80,12 @@ def is_linked(matrix, flag):
         node_in_depth_1.extend(temp)
     if ('ok' in node_in_depth_1):
         return True, position
-    print node_in_depth_1
     node_in_depth_2 = []
 
     for j in node_in_depth_1:
         node_in_depth_2.extend(search_with_direction(j[1], matrix, j[0], flag))
     if ('ok' in node_in_depth_2):
         return True, position
-    print node_in_depth_2
     return False, position
 
 
@@ -93,12 +95,12 @@ def search_with_direction(direction, matrix, position, flag):
 
     if direction == 0:
         line_0 = []
-        if search_with_direction(1, matrix, position, flag) == 'ok':
+        if search_with_direction(1, matrix, position, flag) == ['ok']:
             return ['ok']
         else:
             line_0.extend(search_with_direction(1, matrix, position, flag))
 
-        if search_with_direction(2, matrix, position, flag) == 'ok':
+        if search_with_direction(2, matrix, position, flag) == ['ok']:
             return ['ok']
         else:
             line_0.extend(search_with_direction(2, matrix, position, flag))
@@ -172,21 +174,111 @@ def set_random_list(n):
         random_list[position] = i + 1
     return random_list
 
+def check_deadlock(matrix):
+    for i in matrix:
+        for j in i:
+            if j[2] != -1 and j[2] != 0:
+                x, y = is_linked(matrix, j[2])
+                if x == True:
+                    return False
+    return True
 
-matrix = set_up_random_matrix(length, width)
-matrix = expand_matrix(matrix)
-# for i in range(len(matrix)):
-#     print matrix[i]
-show(matrix)
-while True:
-    v = input('vanish:')
-    matrix = vanish(v, matrix)
+def random_switch(matrix):
+    x = len(matrix) - 2
+    y = len(matrix[0]) - 2
+    for i in range(x):
+        x_ran_1 = random.randint(0, x-1)
+        y_ran_1 = random.randint(0, y-1)
+
+        x_ran_2 = (x_ran_1 + random.randint(1,100)) % x
+        y_ran_2 = (y_ran_1 + random.randint(1,100)) % y
+        matrix[x_ran_1+1][y_ran_1+1][2],matrix[x_ran_2+1][y_ran_2+1][2] = matrix[x_ran_2+1][y_ran_2+1][2],matrix[x_ran_1+1][y_ran_1+1][2]
+    return matrix
+
+def check_empty(matrix):
+    for i in matrix:
+        for j in i:
+            if j[2] != 0 and j[2]!= -1:
+                return False
+    return True
+
+
+if __name__ == '__main__':
+    print '***********'
+    print "This is a demo lianliankan game. You could vanish the number pairs in '-1' boundary if they were linked in rule."
+    print '***********'
+
+    print 'please input the length of lianliankan, please input even number bigger than 2:'
+    while True:
+        length = input('>')
+        if type(length) == int and length%2 == 0 and width > 2:
+            break
+        else:
+            print 'error type of input, please input again:'
+
+    print 'please input the width of lianliankan, please input even number bigger than 2:'
+    while True:
+        width = input('>')
+        if type(length) == int and width%2 == 0 and length > 2:
+            break
+        else:
+            print 'error type of input, please input again:'
+
+    matrix = set_up_random_matrix(length, width)
+    matrix = expand_matrix(matrix)
+    while True:
+        if check_deadlock(matrix) == True:
+            matrix = random_switch(matrix)
+        else:
+            break
+
+    # for i in range(len(matrix)):
+    #     print matrix[i]
+    print 'The fllowing random matrix was generated:'
     show(matrix)
-    flag = input('input flag:')
-    position = []
-    for k in matrix:
-        for q in k:
-            if q[2] == flag:
-                position = [q[0], q[1]]
-                break
-    print is_linked(matrix, flag)
+    box = range(1, length*width/2+1)
+    used_box = []
+    print 'Now starting game'
+    while True:
+        print "please input the number pairs you wanna vanish:"
+        flag = input('>')
+        if flag not in box or  flag in used_box:
+            print "error input type, please input the number pairs exists again:"
+
+        else:
+            index, position = is_linked(matrix, flag)
+            if index == False:
+                print 'This pairs can not link, please try other pairs:'
+            else:
+                print 'This pairs were linked, vanishhhhhhh!'
+                used_box.append(flag)
+                matrix = vanish(flag, matrix)
+                show(matrix)
+                if check_empty(matrix):
+                    print 'You win the game, congratulations'
+                    break
+                elif check_deadlock(matrix) == True:
+                    print 'Now the matrix is no pairs linked, let us watch a magic:'
+                    while True:
+                        matrix = random_switch(matrix)
+                        if check_deadlock(matrix) == False:
+                            break
+                    show(matrix)
+                print 'Next round'
+
+
+
+
+
+    # while True:
+    #     v = input('vanish:')
+    #     matrix = vanish(v, matrix)
+    #     show(matrix)
+    #     flag = input('input flag:')
+    #     position = []
+    #     for k in matrix:
+    #         for q in k:
+    #             if q[2] == flag:
+    #                 position = [q[0], q[1]]
+    #                 break
+    #     print is_linked(matrix, flag)
