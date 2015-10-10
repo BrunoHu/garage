@@ -5,7 +5,7 @@ length = 4
 width = 4
 
 
-def set_up_random_matrix(length, width):
+def set_up_random_matrix(length, width): #生成一个随机矩阵
     matrix = []
     random_list = set_random_list(length * width / 2)
     for i in range(width):
@@ -16,7 +16,7 @@ def set_up_random_matrix(length, width):
     return matrix
 
 
-def expand_matrix(matrix):
+def expand_matrix(matrix): #扩展矩阵使其有边界
     width = len(matrix)
     length = len(matrix[0])
 
@@ -42,7 +42,7 @@ def expand_matrix(matrix):
     return new_matrix
 
 
-def show(matrix):
+def show(matrix): #显示矩阵，不显示边界和消去的元素
     width = len(matrix)
     length = len(matrix[0])
     for i in range(width):
@@ -56,7 +56,7 @@ def show(matrix):
         print '\n'
 
 
-def is_linked(matrix, flag):
+def is_linked(matrix, flag): #检验是否这一对是相连的
     position = []
     for i in matrix:
         for j in i:
@@ -82,11 +82,11 @@ def is_linked(matrix, flag):
     return False, position
 
 
-def search_with_direction(direction, matrix, position, flag):
+def search_with_direction(direction, matrix, position, flag): #搜寻这个结点指定方向上的所有可以到达的结点
     x = position[0]
     y = position[1]
 
-    if direction == 0:
+    if direction == 0: #东西南北都搜索，只有开始的那个结点使用
         line_0 = []
         if search_with_direction(1, matrix, position, flag) == ['ok']:
             return ['ok']
@@ -146,7 +146,7 @@ def search_with_direction(direction, matrix, position, flag):
         return line_2
 
 
-def vanish(flag, matrix):
+def vanish(flag, matrix): #消去一对结点
     for i in matrix:
         for j in i:
             if (j[2] == flag):
@@ -154,7 +154,7 @@ def vanish(flag, matrix):
     return matrix
 
 
-def set_random_list(n):
+def set_random_list(n): #生成一个特定随机的数列，用来生成随机矩阵
     random_list = [0] * n * 2
     for i in range(n):
 
@@ -167,7 +167,7 @@ def set_random_list(n):
         random_list[position] = i + 1
     return random_list
 
-def check_deadlock(matrix):
+def check_deadlock(matrix): #检查死锁
     for i in matrix:
         for j in i:
             if j[2] != -1 and j[2] != 0:
@@ -176,7 +176,7 @@ def check_deadlock(matrix):
                     return False
     return True
 
-def random_switch(matrix):
+def random_switch(matrix): #随机调整矩阵
     x = len(matrix) - 2
     y = len(matrix[0]) - 2
     for i in range(x):
@@ -188,7 +188,7 @@ def random_switch(matrix):
         matrix[x_ran_1+1][y_ran_1+1][2],matrix[x_ran_2+1][y_ran_2+1][2] = matrix[x_ran_2+1][y_ran_2+1][2],matrix[x_ran_1+1][y_ran_1+1][2]
     return matrix
 
-def check_empty(matrix):
+def check_empty(matrix): #检查是否 game over
     for i in matrix:
         for j in i:
             if j[2] != 0 and j[2]!= -1:
@@ -196,7 +196,7 @@ def check_empty(matrix):
     return True
 
 
-if __name__ == '__main__':
+if __name__ == '__main__': #开始游戏
     print '***********'
     print "This is a demo lianliankan game. You could vanish the number pairs in '-1' boundary if they were linked in rule."
     print '***********'
