@@ -9,5 +9,13 @@ if type(soduku) == str:
 else:
     print_soduku(soduku)
 
-vanish_cross(soduku, 0, 0)
 
+
+soduku= simple_process(soduku)
+print '################################'
+if type(soduku) == str:
+    print soduku
+else:
+    print_soduku(soduku)
+
+display(soduku)
