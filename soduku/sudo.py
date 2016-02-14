@@ -1,7 +1,7 @@
 # coding:utf-8
 import copy
 
-path = '/home/arnold-hu/garage/soduku/hard.txt'
+path = '/home/arnold-hu/garage/soduku/very_hard.txt'
 #   initiate the structure of sudoku
 rows = ('1', '2', '3', '4', '5', '6', '7', '8', '9')
 cols = ('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i')
@@ -61,7 +61,9 @@ result_units ={}
 for i in grids:
     units[i] = ['1', '2', '3', '4', '5', '6', '7', '8', '9']
 
-inavalable = []
+invalid = []
+
+
 
 def display_sudo(units):
     count = 1
@@ -83,7 +85,7 @@ def init_sudo_with_file(units):
         for i in data:
             if i in rows:
                 units[grids[count]] = [i]
-                inavalable.append(grids[count])
+                invalid.append(grids[count])
                 count += 1
             elif i != '\n' and i != ' ':
                 count += 1
@@ -93,37 +95,37 @@ def init_sudo_with_file(units):
 def init_sudo(units):
     for i in grids:
         units[i] = ['1', '2', '3', '4', '5', '6', '7', '8', '9']
-    inavalable = []
+    invalid = []
 
 
-def simple_vanish(units, inavalable):
+def simple_vanish(units, invalid):
     flag = True
     while flag:
         flag = False
         for i in grids:
-            if i not in inavalable:
+            if i not in invalid:
                 for j in conter_units[i]:
-                    if j in inavalable:
+                    if j in invalid:
                         if units[j][0] in units[i]:
                             units[i].remove(units[j][0])
                             flag = True
                             if len(units[i]) == 1:
-                                inavalable.append(i)
+                                invalid.append(i)
                                 break
 
-def check(units, inavalable):
-    for i in inavalable:
+def check(units, invalid):
+    for i in invalid:
         for j in conter_units[i]:
-            if j in inavalable:
+            if j in invalid:
                 if units[i][0] == units[j][0]:
                     print 'False: '+ i + ' links ' + j
                     return False
     return True
 
-def get_shortest_ava_unit(units, inavalable):
+def get_shortest_ava_unit(units, invalid):
     count = 100
     for i in grids:
-        if i not in inavalable and len(units[i]) < count:
+        if i not in invalid and len(units[i]) < count:
             count = len(units[i])
             short_u = i
     return short_u
@@ -131,54 +133,33 @@ def get_shortest_ava_unit(units, inavalable):
 
 
 
-def deep_vanish(units, inavalable):
-    # tag = get_shortest_ava_unit(units)
-    # tags = units[tag][:]
-    # units_copy = copy.deepcopy(units)
-    # inavalable.append(tag)
-    # for ava in tags:
-    #     units = copy.deepcopy(units_copy)
-    #     units[tag] = [ava]
-    #     simple_vanish(units)
-    #     if not check(units):
-    #         continue
-    #     if len(inavalable) < 81:
-    #         result = deep_vanish(units)
-    #     else:
-    #         return True
-    #     if not result:
-    #         continue
-    #     else:
-    #         return True
-    # inavalable.remove(tag)
-    # return False
+def deep_vanish(units, invalid):
     global result_units
-    inavalable_copy = inavalable[:]
+    invalid_copy = invalid[:]
     units_copy = copy.deepcopy(units)
-    tag = get_shortest_ava_unit(units_copy, inavalable_copy)
-    inavalable_copy.append(tag)
+    tag = get_shortest_ava_unit(units_copy, invalid_copy)
+    invalid_copy.append(tag)
     tags = units_copy[tag][:]
     for ava in tags:
         units_copy[tag] = [ava]
-        simple_vanish(units_copy, inavalable_copy)
-        # display_sudo(units_copy)
-        if not check(units_copy, inavalable_copy):
-            units_copy = copy.deepcopy(units)
-            inavalable_copy = inavalable[:]
-            inavalable_copy.append(tag)
+        simple_vanish(units_copy, invalid_copy)
+        if not check(units_copy, invalid_copy):
+            units_copy = copy.copy(units)
+            invalid_copy = invalid[:]
+            invalid_copy.append(tag)
             continue
         else:
-            if len(inavalable_copy) == 81:
-                result_units = copy.deepcopy(units_copy)
+            if len(invalid_copy) == 81:
+                result_units = units_copy
                 return True
             else:
-                result = deep_vanish(units_copy, inavalable_copy)
+                result = deep_vanish(units_copy, invalid_copy)
                 if result:
                     return True
                 else:
-                    units_copy = copy.deepcopy(units)
-                    inavalable_copy = inavalable[:]
-                    inavalable_copy.append(tag)
+                    units_copy = copy.copy(units)
+                    invalid_copy = invalid[:]
+                    invalid_copy.append(tag)
                     continue
     return False
 
@@ -189,11 +170,11 @@ if __name__ == "__main__":
     init_sudo_with_file(units)
     display_sudo(units)
 
-    simple_vanish(units, inavalable)
+    simple_vanish(units, invalid)
     print '*'*20 + 'simple_vanish' + '*'*20
     display_sudo(units)
     print '*'*20 + 'deep_vanish' + '*'*20
-    if deep_vanish(units, inavalable):
+    if deep_vanish(units, invalid):
         display_sudo(result_units)
     else:
         print 'False'
