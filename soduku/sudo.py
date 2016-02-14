@@ -66,19 +66,16 @@ invalid = []
 
 
 def display_sudo(units):
-    count = 1
-    for i in grids:
+    for index,i in enumerate(grids, start=1):
         if len(units[i]) == 9:
             print '*'.center(6),
         else:
             print ''.join(units[i]).center(6),
-            # print len(units[i]),' ',
-        if count % 9 == 0:
+        if index % 9 == 0:
             print '\n'
-        count += 1
 
 
-def init_sudo_with_file(units):
+def init_sudo_with_file(units, path):
     with open(path, 'r') as f:
         data = f.read()
         count = 0
@@ -118,7 +115,6 @@ def check(units, invalid):
         for j in conter_units[i]:
             if j in invalid:
                 if units[i][0] == units[j][0]:
-                    print 'False: '+ i + ' links ' + j
                     return False
     return True
 
@@ -163,18 +159,20 @@ def deep_vanish(units, invalid):
                     continue
     return False
 
-if __name__ == "__main__":
-    init_sudo(units)
-    test = units['a1']
-    test_conter = conter_units['a1']
-    init_sudo_with_file(units)
-    display_sudo(units)
-
+def solve(units, invalid):
     simple_vanish(units, invalid)
-    print '*'*20 + 'simple_vanish' + '*'*20
+    if len(invalid) == 81:
+        result_units = units
+    else:
+        return deep_vanish(units, invalid)
+
+
+if __name__ == "__main__":
+    init_sudo_with_file(units)
+    print '*'*20 + '原始数独' + '*'*20
     display_sudo(units)
-    print '*'*20 + 'deep_vanish' + '*'*20
-    if deep_vanish(units, invalid):
+    print '*'*20 + '解答' + '*'*20
+    if solve(units, invalid):
         display_sudo(result_units)
     else:
-        print 'False'
+        print '这个数独无解'
