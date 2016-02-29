@@ -76,6 +76,7 @@ def display_sudo(units):
 
 
 def init_sudo_with_file(units, path):
+    #这个函数读取文件中前81个非换行符和空格的内容,若内容为1-9,则相应位置为数字,否则为空白
     with open(path, 'r') as f:
         data = f.read()
         count = 0
