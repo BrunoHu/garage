@@ -4,8 +4,8 @@ This is a garage to store my handwrite algorithms. Some are data analyzing and a
 ## K-means Algorithm
 
 [中文详细版](http://migdal-bavel.in/2015/09/20/%E7%94%A8python%E5%AE%9E%E7%8E%B0kmeans%E7%AE%97%E6%B3%95/)
-This algorithm is famous and easy.
 
+This algorithm is famous and easy.
 `kmeans.py` is the code file which only have the kmeans function.
 `test_kmeans.py` is a test file for upper file. You could get a visual glance for this algorithm.
 `test_kmeans.png` is a example graph for a overview.
