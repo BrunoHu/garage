@@ -1,0 +1,6366 @@
+start
+empty list: set([(0, 1), (1, 2), (3, 2), (0, 0), (3, 1), (2, 1), (0, 2), (1, 3), (2, 3), (2, 2), (1, 0), (0, 3), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	*	*	
+*	*	*	*	
+2	*	*	*	
+2	*	*	2	
+
+******************************
+#### turn 1 ####
+search depth 2
+#### predict direction is down ####
+#### best score is 22 ####
+empty list: set([(0, 1), (1, 2), (3, 2), (0, 0), (3, 1), (2, 1), (0, 2), (2, 0), (1, 3), (2, 3), (2, 2), (1, 0), (0, 3), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	*	*	
+*	*	*	*	
+*	*	*	*	
+4	*	*	2	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 2), (3, 2), (0, 0), (3, 1), (0, 2), (2, 0), (1, 3), (2, 3), (2, 2), (1, 0), (0, 3), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	*	*	
+*	*	*	*	
+*	2	*	*	
+4	*	*	2	
+
+******************************
+#### turn 2 ####
+search depth 2
+#### predict direction is up ####
+#### best score is 24 ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 1), (1, 1), (2, 0), (2, 3), (2, 2), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+4	2	*	2	
+*	*	*	*	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 1), (1, 1), (2, 0), (2, 3), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+4	2	2	2	
+*	*	*	*	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### turn 3 ####
+search depth 2
+#### predict direction is left ####
+#### best score is 23 ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 1), (1, 1), (2, 0), (2, 3), (2, 2), (0, 3), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+4	4	2	*	
+*	*	*	*	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 1), (1, 1), (2, 3), (2, 2), (0, 3), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+4	4	2	*	
+*	*	*	*	
+2	*	*	*	
+*	*	*	*	
+
+******************************
+#### turn 4 ####
+search depth 2
+#### predict direction is right ####
+#### best score is 25 ####
+empty list: set([(0, 1), (1, 2), (3, 2), (0, 0), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (1, 3), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	8	2	
+*	*	*	*	
+*	*	*	2	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 2), (3, 2), (0, 0), (3, 3), (3, 1), (2, 1), (2, 0), (1, 3), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	8	2	
+*	*	*	*	
+*	*	*	2	
+2	*	*	*	
+
+******************************
+#### turn 5 ####
+search depth 2
+#### predict direction is down ####
+#### best score is 34 ####
+empty list: set([(0, 1), (1, 2), (0, 0), (3, 1), (2, 1), (0, 2), (2, 0), (1, 3), (2, 3), (2, 2), (1, 0), (0, 3), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	*	*	
+*	*	*	*	
+*	*	*	*	
+2	*	8	4	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 2), (0, 0), (3, 1), (0, 2), (2, 0), (1, 3), (2, 3), (2, 2), (1, 0), (0, 3), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	*	*	
+*	*	*	*	
+*	2	*	*	
+2	*	8	4	
+
+******************************
+#### turn 6 ####
+search depth 2
+#### predict direction is up ####
+#### best score is 36 ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+2	2	8	4	
+*	*	*	*	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	2	8	4	
+*	*	*	*	
+*	*	*	2	
+*	*	*	*	
+
+******************************
+#### turn 7 ####
+search depth 2
+#### predict direction is up ####
+#### best score is 48 ####
+empty list: set([(1, 2), (3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+2	2	8	4	
+*	*	*	2	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	2	8	4	
+*	*	*	2	
+*	*	*	2	
+*	*	*	*	
+
+******************************
+#### turn 8 ####
+search depth 2
+#### predict direction is up ####
+#### best score is 46 ####
+empty list: set([(1, 2), (3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+2	2	8	4	
+*	*	*	4	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (3, 3), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	2	8	4	
+*	*	*	4	
+*	*	*	*	
+2	*	*	*	
+
+******************************
+#### turn 9 ####
+search depth 2
+#### predict direction is up ####
+#### best score is 34 ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+4	2	8	8	
+*	*	*	*	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+4	2	8	8	
+*	*	*	*	
+*	*	*	*	
+*	*	*	2	
+
+******************************
+#### turn 10 ####
+search depth 2
+#### predict direction is right ####
+#### best score is 45 ####
+empty list: set([(1, 2), (3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (1, 3), (2, 3), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	4	2	16	
+*	*	*	*	
+*	*	*	*	
+*	*	*	2	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (1, 3), (2, 3), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	4	2	16	
+*	*	*	*	
+*	*	*	*	
+*	*	2	2	
+
+******************************
+#### turn 11 ####
+search depth 2
+#### predict direction is up ####
+#### best score is 35 ####
+empty list: set([(1, 2), (3, 2), (0, 0), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	4	4	16	
+*	*	*	2	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (0, 0), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	4	4	16	
+2	*	*	2	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### turn 12 ####
+search depth 2
+#### predict direction is right ####
+#### best score is 36 ####
+empty list: set([(0, 1), (1, 2), (3, 2), (0, 0), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	8	16	
+*	*	*	4	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 2), (3, 2), (0, 0), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	8	16	
+*	2	*	4	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### turn 13 ####
+search depth 2
+#### predict direction is up ####
+#### best score is 48 ####
+empty list: set([(1, 2), (3, 2), (0, 0), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	2	8	16	
+*	*	*	4	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (0, 0), (3, 3), (3, 0), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	2	8	16	
+*	*	*	4	
+*	*	*	*	
+*	2	*	*	
+
+******************************
+#### turn 14 ####
+search depth 2
+#### predict direction is up ####
+#### best score is 49 ####
+empty list: set([(1, 2), (3, 2), (0, 0), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	4	8	16	
+*	*	*	4	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (0, 0), (3, 3), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	4	8	16	
+*	*	*	4	
+*	*	*	*	
+2	*	*	*	
+
+******************************
+#### turn 15 ####
+search depth 2
+#### predict direction is left ####
+#### best score is 50 ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 3), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (0, 3), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+4	8	16	*	
+4	*	*	*	
+*	*	*	*	
+2	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (1, 3), (3, 3), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (0, 3), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+4	8	16	*	
+4	*	2	*	
+*	*	*	*	
+2	*	*	*	
+
+******************************
+#### turn 16 ####
+search depth 2
+#### predict direction is up ####
+#### best score is 37 ####
+empty list: set([(3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (0, 3), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+8	8	16	*	
+2	*	2	*	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (0, 3)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+8	8	16	*	
+2	2	2	*	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### turn 17 ####
+search depth 2
+#### predict direction is right ####
+#### best score is 34 ####
+empty list: set([(0, 1), (3, 2), (0, 0), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	16	16	
+*	*	2	4	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	16	16	
+*	*	2	4	
+*	*	*	*	
+*	*	*	2	
+
+******************************
+#### turn 18 ####
+search depth 2
+#### predict direction is left ####
+#### best score is 37 ####
+empty list: set([(0, 1), (1, 2), (3, 2), (1, 3), (3, 3), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (0, 3), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+32	*	*	*	
+2	4	*	*	
+*	*	*	*	
+2	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 2), (3, 2), (1, 3), (3, 3), (2, 1), (2, 0), (2, 3), (2, 2), (0, 3), (0, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+32	*	*	*	
+2	4	*	*	
+*	*	*	*	
+2	2	*	*	
+
+******************************
+#### turn 19 ####
+search depth 2
+#### predict direction is right ####
+#### best score is 45 ####
+empty list: set([(0, 1), (3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (1, 1), (2, 0), (2, 3), (2, 2), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	*	32	
+*	*	2	4	
+*	*	*	*	
+*	*	*	4	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (3, 2), (0, 0), (3, 1), (2, 1), (1, 1), (2, 0), (2, 3), (2, 2), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	*	32	
+*	*	2	4	
+*	*	*	*	
+2	*	*	4	
+
+******************************
+#### turn 20 ####
+search depth 2
+#### predict direction is up ####
+#### best score is 36 ####
+empty list: set([(0, 1), (1, 2), (3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+2	*	2	32	
+*	*	*	8	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 2), (3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 3), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	*	2	32	
+*	*	*	8	
+2	*	*	*	
+*	*	*	*	
+
+******************************
+#### turn 21 ####
+search depth 2
+#### predict direction is up ####
+#### best score is 48 ####
+empty list: set([(0, 1), (1, 2), (3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+4	*	2	32	
+*	*	*	8	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 2), (3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+4	*	2	32	
+*	2	*	8	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### turn 22 ####
+search depth 2
+#### predict direction is up ####
+#### best score is 49 ####
+empty list: set([(1, 2), (3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+4	2	2	32	
+*	*	*	8	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+4	2	2	32	
+*	*	2	8	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### turn 23 ####
+search depth 2
+#### predict direction is right ####
+#### best score is 49 ####
+empty list: set([(3, 2), (0, 0), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	4	4	32	
+*	*	2	8	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	4	4	32	
+*	*	2	8	
+*	*	*	*	
+*	*	*	2	
+
+******************************
+#### turn 24 ####
+search depth 2
+#### predict direction is left ####
+#### best score is 58 ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 3), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (0, 3), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+8	32	*	*	
+2	8	*	*	
+*	*	*	*	
+2	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 3), (3, 1), (2, 1), (2, 0), (2, 3), (0, 3), (0, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+8	32	*	*	
+2	8	*	*	
+*	*	2	*	
+2	*	*	*	
+
+******************************
+#### turn 25 ####
+search depth 2
+#### predict direction is right ####
+#### best score is 64 ####
+empty list: set([(0, 1), (3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	8	32	
+*	*	2	8	
+*	*	*	2	
+*	*	*	2	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	8	32	
+*	*	2	8	
+*	*	*	2	
+*	*	2	2	
+
+******************************
+#### turn 26 ####
+search depth 3
+#### predict direction is down ####
+#### best score is 51 ####
+empty list: set([(0, 1), (1, 2), (0, 0), (3, 0), (3, 1), (2, 1), (0, 2), (2, 0), (1, 0), (0, 3), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	*	*	
+*	*	*	32	
+*	*	8	8	
+*	*	4	4	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (0, 0), (3, 0), (3, 1), (2, 1), (0, 2), (2, 0), (1, 0), (0, 3), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	2	*	*	
+*	*	*	32	
+*	*	8	8	
+*	*	4	4	
+
+******************************
+#### turn 27 ####
+search depth 2
+#### predict direction is right ####
+#### best score is 51 ####
+empty list: set([(0, 1), (1, 2), (3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (1, 1), (2, 0), (2, 2), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	*	2	
+*	*	*	32	
+*	*	*	16	
+*	*	*	8	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (1, 1), (2, 0), (2, 2), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	2	*	2	
+*	*	*	32	
+*	*	*	16	
+*	*	*	8	
+
+******************************
+#### turn 28 ####
+search depth 2
+#### predict direction is right ####
+#### best score is 51 ####
+empty list: set([(0, 1), (1, 2), (3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (1, 1), (2, 0), (2, 2), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	*	4	
+*	*	*	32	
+*	*	*	16	
+*	*	*	8	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 2), (0, 0), (3, 0), (3, 1), (2, 1), (1, 1), (2, 0), (2, 2), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	*	4	
+*	*	*	32	
+*	*	*	16	
+*	*	2	8	
+
+******************************
+#### turn 29 ####
+search depth 2
+#### predict direction is up ####
+#### best score is 65 ####
+empty list: set([(0, 1), (1, 2), (3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	2	4	
+*	*	*	32	
+*	*	*	16	
+*	*	*	8	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 2), (3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	2	4	
+*	*	*	32	
+*	*	2	16	
+*	*	*	8	
+
+******************************
+#### turn 30 ####
+search depth 2
+#### predict direction is up ####
+#### best score is 51 ####
+empty list: set([(0, 1), (1, 2), (3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	4	4	
+*	*	*	32	
+*	*	*	16	
+*	*	*	8	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 2), (3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	4	4	
+*	*	*	32	
+*	*	2	16	
+*	*	*	8	
+
+******************************
+#### turn 31 ####
+search depth 2
+#### predict direction is up ####
+#### best score is 65 ####
+empty list: set([(0, 1), (3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	4	4	
+*	*	2	32	
+*	*	*	16	
+*	*	*	8	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	4	4	
+*	*	2	32	
+2	*	*	16	
+*	*	*	8	
+
+******************************
+#### turn 32 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 82 ####
+empty list: set([(0, 1), (3, 2), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+2	*	4	4	
+*	*	2	32	
+*	*	*	16	
+*	*	*	8	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (3, 2), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	*	4	4	
+2	*	2	32	
+*	*	*	16	
+*	*	*	8	
+
+******************************
+#### turn 33 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 85 ####
+empty list: set([(0, 1), (3, 2), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+4	*	4	4	
+*	*	2	32	
+*	*	*	16	
+*	*	*	8	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (3, 2), (3, 0), (3, 1), (2, 1), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+4	*	4	4	
+*	*	2	32	
+2	*	*	16	
+*	*	*	8	
+
+******************************
+#### turn 34 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 83 ####
+empty list: set([(0, 1), (3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	4	8	
+*	*	2	32	
+*	*	2	16	
+*	*	*	8	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	4	8	
+*	2	2	32	
+*	*	2	16	
+*	*	*	8	
+
+******************************
+#### turn 35 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 81 ####
+empty list: set([(3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	2	4	8	
+*	*	4	32	
+*	*	*	16	
+*	*	*	8	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (0, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	2	4	8	
+*	*	4	32	
+*	*	*	16	
+2	*	*	8	
+
+******************************
+#### turn 36 ####
+search depth 3
+#### predict direction is down ####
+#### best score is 66 ####
+empty list: set([(0, 1), (1, 2), (0, 0), (2, 1), (1, 1), (2, 0), (2, 2), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	*	8	
+*	*	*	32	
+*	*	*	16	
+2	2	8	8	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 2), (0, 0), (2, 1), (1, 1), (2, 0), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	*	8	
+*	*	*	32	
+*	*	2	16	
+2	2	8	8	
+
+******************************
+#### turn 37 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 62 ####
+empty list: set([(0, 1), (1, 2), (0, 0), (3, 0), (3, 1), (2, 1), (1, 1), (2, 0), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	*	8	
+*	*	*	32	
+*	*	2	16	
+*	*	4	16	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 2), (3, 0), (3, 1), (2, 1), (1, 1), (2, 0), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	*	*	8	
+*	*	*	32	
+*	*	2	16	
+*	*	4	16	
+
+******************************
+#### turn 38 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 49 ####
+empty list: set([(0, 1), (1, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	2	8	
+*	*	*	32	
+*	*	2	16	
+*	*	4	16	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 2), (0, 0), (3, 1), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	2	8	
+*	*	*	32	
+*	*	2	16	
+2	*	4	16	
+
+******************************
+#### turn 39 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 50 ####
+empty list: set([(0, 1), (3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+2	*	4	8	
+*	*	4	32	
+*	*	*	32	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (3, 2), (3, 3), (3, 0), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	*	4	8	
+*	*	4	32	
+*	*	*	32	
+*	2	*	*	
+
+******************************
+#### turn 40 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 51 ####
+empty list: set([(1, 2), (3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+2	2	8	8	
+*	*	*	64	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	2	8	8	
+*	2	*	64	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### turn 41 ####
+search depth 2
+#### predict direction is up ####
+#### best score is 51 ####
+empty list: set([(1, 2), (3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+2	4	8	8	
+*	*	*	64	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	4	8	8	
+2	*	*	64	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### turn 42 ####
+search depth 2
+#### predict direction is up ####
+#### best score is 40 ####
+empty list: set([(1, 2), (3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+4	4	8	8	
+*	*	*	64	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (3, 3), (3, 0), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+4	4	8	8	
+*	*	*	64	
+*	*	*	*	
+*	2	*	*	
+
+******************************
+#### turn 43 ####
+search depth 2
+#### predict direction is up ####
+#### best score is 52 ####
+empty list: set([(1, 2), (3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+4	4	8	8	
+*	2	*	64	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+4	4	8	8	
+*	2	*	64	
+*	*	2	*	
+*	*	*	*	
+
+******************************
+#### turn 44 ####
+search depth 3
+#### predict direction is down ####
+#### best score is 65 ####
+empty list: set([(0, 1), (1, 2), (0, 0), (0, 2), (2, 0), (1, 3), (1, 0), (0, 3), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	*	*	
+*	*	*	*	
+*	4	8	8	
+4	2	2	64	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (0, 0), (0, 2), (2, 0), (1, 3), (1, 0), (0, 3), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	2	*	*	
+*	*	*	*	
+*	4	8	8	
+4	2	2	64	
+
+******************************
+#### turn 45 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 80 ####
+empty list: set([(0, 1), (1, 2), (0, 0), (3, 0), (2, 1), (1, 1), (2, 0), (1, 3), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	*	2	
+*	*	*	*	
+*	*	4	16	
+*	4	4	64	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 2), (0, 0), (2, 1), (1, 1), (2, 0), (1, 3), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	*	2	
+*	*	*	*	
+*	*	4	16	
+2	4	4	64	
+
+******************************
+#### turn 46 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 83 ####
+empty list: set([(0, 1), (1, 2), (0, 0), (3, 0), (2, 1), (1, 1), (2, 0), (1, 3), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	*	2	
+*	*	*	*	
+*	*	4	16	
+*	2	8	64	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 2), (0, 0), (3, 0), (2, 1), (2, 0), (1, 3), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	*	2	
+*	2	*	*	
+*	*	4	16	
+*	2	8	64	
+
+******************************
+#### turn 47 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 70 ####
+empty list: set([(3, 2), (0, 0), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	4	4	2	
+*	*	8	16	
+*	*	*	64	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (0, 0), (3, 3), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	4	4	2	
+*	*	8	16	
+*	*	*	64	
+2	*	*	*	
+
+******************************
+#### turn 48 ####
+search depth 3
+#### predict direction is left ####
+#### best score is 80 ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 3), (3, 1), (2, 1), (2, 3), (2, 2), (0, 3), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+8	2	*	*	
+8	16	*	*	
+64	*	*	*	
+2	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 3), (3, 1), (2, 1), (2, 3), (0, 3), (0, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+8	2	*	*	
+8	16	*	*	
+64	*	2	*	
+2	*	*	*	
+
+******************************
+#### turn 49 ####
+search depth 3
+#### predict direction is down ####
+#### best score is 89 ####
+empty list: set([(0, 1), (1, 2), (0, 0), (3, 3), (1, 1), (1, 3), (2, 3), (2, 2), (0, 3), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	*	*	
+16	*	*	*	
+64	2	*	*	
+2	16	2	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 2), (0, 0), (3, 3), (1, 1), (1, 3), (2, 3), (2, 2), (0, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	*	2	
+16	*	*	*	
+64	2	*	*	
+2	16	2	*	
+
+******************************
+#### turn 50 ####
+search depth 3
+#### predict direction is left ####
+#### best score is 84 ####
+empty list: set([(0, 1), (1, 2), (1, 3), (3, 3), (1, 1), (2, 3), (2, 2), (0, 3), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+2	*	*	*	
+16	*	*	*	
+64	2	*	*	
+2	16	2	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 2), (1, 3), (3, 3), (1, 1), (2, 3), (2, 2), (0, 3)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	*	2	*	
+16	*	*	*	
+64	2	*	*	
+2	16	2	*	
+
+******************************
+#### turn 51 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 67 ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 3), (3, 1), (2, 1), (2, 3), (2, 2), (0, 3)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+2	2	4	*	
+16	16	*	*	
+64	*	*	*	
+2	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (1, 3), (3, 3), (3, 1), (2, 1), (2, 3), (2, 2), (0, 3)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	2	4	*	
+16	16	*	*	
+64	*	*	*	
+2	*	2	*	
+
+******************************
+#### turn 52 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 67 ####
+empty list: set([(0, 1), (1, 2), (3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	4	4	
+*	*	*	32	
+*	*	*	64	
+*	*	*	4	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 2), (3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	4	4	
+*	2	*	32	
+*	*	*	64	
+*	*	*	4	
+
+******************************
+#### turn 53 ####
+search depth 2
+#### predict direction is up ####
+#### best score is 67 ####
+empty list: set([(1, 2), (3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	2	4	4	
+*	*	*	32	
+*	*	*	64	
+*	*	*	4	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (0, 0), (3, 0), (3, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	2	4	4	
+*	*	*	32	
+*	2	*	64	
+*	*	*	4	
+
+******************************
+#### turn 54 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 67 ####
+empty list: set([(0, 1), (1, 2), (3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	2	8	
+*	*	*	32	
+*	*	2	64	
+*	*	*	4	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 2), (3, 2), (0, 0), (3, 0), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	2	8	
+*	*	*	32	
+*	*	2	64	
+*	2	*	4	
+
+******************************
+#### turn 55 ####
+search depth 3
+#### predict direction is down ####
+#### best score is 68 ####
+empty list: set([(0, 1), (1, 2), (0, 0), (3, 0), (2, 1), (1, 1), (2, 0), (2, 2), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	*	8	
+*	*	*	32	
+*	*	*	64	
+*	2	4	4	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 2), (0, 0), (3, 0), (2, 1), (1, 1), (2, 0), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	2	8	
+*	*	*	32	
+*	*	*	64	
+*	2	4	4	
+
+******************************
+#### turn 56 ####
+search depth 3
+#### predict direction is down ####
+#### best score is 84 ####
+empty list: set([(0, 1), (1, 2), (0, 0), (3, 0), (2, 1), (1, 1), (2, 0), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	*	8	
+*	*	*	32	
+*	*	2	64	
+*	2	4	4	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (0, 0), (3, 0), (2, 1), (1, 1), (2, 0), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	2	*	8	
+*	*	*	32	
+*	*	2	64	
+*	2	4	4	
+
+******************************
+#### turn 57 ####
+search depth 3
+#### predict direction is down ####
+#### best score is 101 ####
+empty list: set([(0, 1), (1, 2), (0, 0), (3, 0), (2, 1), (1, 1), (2, 0), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	*	8	
+*	*	*	32	
+*	*	2	64	
+*	4	4	4	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 2), (0, 0), (3, 0), (2, 1), (1, 1), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	*	8	
+*	*	*	32	
+2	*	2	64	
+*	4	4	4	
+
+******************************
+#### turn 58 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 67 ####
+empty list: set([(0, 1), (1, 2), (0, 0), (3, 0), (3, 1), (2, 1), (1, 1), (2, 0), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	*	8	
+*	*	*	32	
+*	*	4	64	
+*	*	4	8	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 2), (0, 0), (3, 0), (3, 1), (1, 1), (2, 0), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	*	8	
+*	*	*	32	
+*	2	4	64	
+*	*	4	8	
+
+******************************
+#### turn 59 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 68 ####
+empty list: set([(1, 2), (3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	2	8	8	
+*	*	*	32	
+*	*	*	64	
+*	*	*	8	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (0, 0), (3, 0), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	2	8	8	
+*	*	*	32	
+*	*	*	64	
+*	2	*	8	
+
+******************************
+#### turn 60 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 84 ####
+empty list: set([(1, 2), (3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	4	8	8	
+*	*	*	32	
+*	*	*	64	
+*	*	*	8	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (0, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	4	8	8	
+*	*	*	32	
+*	*	*	64	
+2	*	*	8	
+
+******************************
+#### turn 61 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 87 ####
+empty list: set([(0, 1), (1, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	4	16	
+*	*	*	32	
+*	*	*	64	
+*	*	2	8	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	4	16	
+*	*	*	32	
+*	*	2	64	
+*	*	2	8	
+
+******************************
+#### turn 62 ####
+search depth 3
+#### predict direction is down ####
+#### best score is 67 ####
+empty list: set([(0, 1), (1, 2), (0, 0), (3, 0), (3, 1), (2, 1), (1, 1), (2, 0), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	*	16	
+*	*	*	32	
+*	*	4	64	
+*	*	4	8	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 2), (3, 0), (3, 1), (2, 1), (1, 1), (2, 0), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	*	*	16	
+*	*	*	32	
+*	*	4	64	
+*	*	4	8	
+
+******************************
+#### turn 63 ####
+search depth 3
+#### predict direction is down ####
+#### best score is 68 ####
+empty list: set([(0, 1), (1, 2), (0, 0), (3, 1), (2, 1), (1, 1), (2, 0), (2, 2), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	*	16	
+*	*	*	32	
+*	*	*	64	
+2	*	8	8	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (0, 0), (3, 1), (2, 1), (1, 1), (2, 0), (2, 2), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	2	*	16	
+*	*	*	32	
+*	*	*	64	
+2	*	8	8	
+
+******************************
+#### turn 64 ####
+search depth 3
+#### predict direction is down ####
+#### best score is 84 ####
+empty list: set([(0, 1), (1, 2), (0, 0), (2, 1), (1, 1), (2, 0), (2, 2), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	*	16	
+*	*	*	32	
+*	*	*	64	
+2	2	8	8	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (0, 0), (2, 1), (1, 1), (2, 0), (2, 2), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	*	16	
+*	*	2	32	
+*	*	*	64	
+2	2	8	8	
+
+******************************
+#### turn 65 ####
+search depth 3
+#### predict direction is down ####
+#### best score is 87 ####
+empty list: set([(0, 1), (1, 2), (0, 0), (2, 1), (1, 1), (2, 0), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	*	16	
+*	*	*	32	
+*	*	2	64	
+2	2	8	8	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 2), (0, 0), (1, 1), (2, 0), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	*	16	
+*	*	*	32	
+*	2	2	64	
+2	2	8	8	
+
+******************************
+#### turn 66 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 85 ####
+empty list: set([(0, 1), (1, 2), (0, 0), (3, 0), (3, 1), (2, 1), (1, 1), (2, 0), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	*	16	
+*	*	*	32	
+*	*	4	64	
+*	*	4	16	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 2), (3, 0), (3, 1), (2, 1), (1, 1), (2, 0), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	*	*	16	
+*	*	*	32	
+*	*	4	64	
+*	*	4	16	
+
+******************************
+#### turn 67 ####
+search depth 3
+#### predict direction is down ####
+#### best score is 92 ####
+empty list: set([(0, 1), (1, 2), (0, 0), (3, 1), (2, 1), (1, 1), (2, 0), (2, 2), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	*	16	
+*	*	*	32	
+*	*	*	64	
+2	*	8	16	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 2), (0, 0), (3, 1), (2, 1), (1, 1), (2, 0), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	2	16	
+*	*	*	32	
+*	*	*	64	
+2	*	8	16	
+
+******************************
+#### turn 68 ####
+search depth 3
+#### predict direction is down ####
+#### best score is 105 ####
+empty list: set([(0, 1), (1, 2), (0, 0), (3, 1), (2, 1), (1, 1), (2, 0), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	*	16	
+*	*	*	32	
+*	*	2	64	
+2	*	8	16	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 2), (0, 0), (2, 1), (1, 1), (2, 0), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	*	16	
+*	*	*	32	
+*	*	2	64	
+2	2	8	16	
+
+******************************
+#### turn 69 ####
+search depth 3
+#### predict direction is down ####
+#### best score is 107 ####
+empty list: set([(0, 1), (1, 2), (0, 0), (2, 1), (1, 1), (2, 0), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	*	16	
+*	*	*	32	
+*	*	2	64	
+2	2	8	16	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (0, 0), (2, 1), (1, 1), (2, 0), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	*	16	
+*	*	2	32	
+*	*	2	64	
+2	2	8	16	
+
+******************************
+#### turn 70 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 111 ####
+empty list: set([(3, 2), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+2	2	4	16	
+*	*	8	32	
+*	*	*	64	
+*	*	*	16	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	2	4	16	
+*	*	8	32	
+*	*	*	64	
+2	*	*	16	
+
+******************************
+#### turn 71 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 103 ####
+empty list: set([(0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	4	4	16	
+*	*	8	32	
+*	*	*	64	
+*	*	2	16	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	4	4	16	
+*	*	8	32	
+*	*	2	64	
+*	*	2	16	
+
+******************************
+#### turn 72 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 86 ####
+empty list: set([(0, 1), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	8	16	
+*	*	8	32	
+*	*	2	64	
+*	*	2	16	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	2	8	16	
+*	*	8	32	
+*	*	2	64	
+*	*	2	16	
+
+******************************
+#### turn 73 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 86 ####
+empty list: set([(3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	2	16	16	
+*	*	4	32	
+*	*	*	64	
+*	*	*	16	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (0, 0), (3, 0), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	2	16	16	
+*	*	4	32	
+*	*	*	64	
+*	2	*	16	
+
+******************************
+#### turn 74 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 69 ####
+empty list: set([(3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	4	16	16	
+*	*	4	32	
+*	*	*	64	
+*	*	*	16	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	4	16	16	
+*	*	4	32	
+*	*	2	64	
+*	*	*	16	
+
+******************************
+#### turn 75 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 64 ####
+empty list: set([(0, 1), (3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	4	32	
+*	*	4	32	
+*	*	2	64	
+*	*	*	16	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	4	32	
+*	2	4	32	
+*	*	2	64	
+*	*	*	16	
+
+******************************
+#### turn 76 ####
+search depth 3
+#### predict direction is down ####
+#### best score is 74 ####
+empty list: set([(0, 1), (1, 2), (0, 0), (3, 0), (2, 1), (0, 2), (2, 0), (1, 0), (0, 3), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	*	*	
+*	*	*	64	
+*	*	8	64	
+*	2	2	16	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 2), (0, 0), (3, 0), (2, 1), (2, 0), (1, 0), (0, 3), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	2	*	
+*	*	*	64	
+*	*	8	64	
+*	2	2	16	
+
+******************************
+#### turn 77 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 86 ####
+empty list: set([(3, 2), (0, 0), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	2	2	128	
+*	*	8	16	
+*	*	2	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (0, 0), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	2	2	128	
+*	2	8	16	
+*	*	2	*	
+*	*	*	*	
+
+******************************
+#### turn 78 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 88 ####
+empty list: set([(0, 1), (3, 2), (0, 0), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	4	128	
+*	2	8	16	
+*	*	*	2	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (3, 2), (0, 0), (3, 3), (3, 0), (2, 1), (2, 0), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	4	128	
+*	2	8	16	
+*	*	*	2	
+*	2	*	*	
+
+******************************
+#### turn 79 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 65 ####
+empty list: set([(3, 2), (0, 0), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	4	4	128	
+*	*	8	16	
+*	*	*	2	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	4	4	128	
+*	*	8	16	
+*	*	*	2	
+*	*	*	2	
+
+******************************
+#### turn 80 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 66 ####
+empty list: set([(3, 2), (0, 0), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	4	4	128	
+*	*	8	16	
+*	*	*	4	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (0, 0), (3, 3), (3, 0), (3, 1), (2, 1), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	4	4	128	
+*	*	8	16	
+2	*	*	4	
+*	*	*	*	
+
+******************************
+#### turn 81 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 77 ####
+empty list: set([(0, 1), (3, 2), (0, 0), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	8	128	
+*	*	8	16	
+*	*	2	4	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	*	8	128	
+*	*	8	16	
+*	*	2	4	
+*	*	*	*	
+
+******************************
+#### turn 82 ####
+search depth 3
+#### predict direction is down ####
+#### best score is 55 ####
+empty list: set([(0, 1), (1, 2), (0, 0), (3, 1), (2, 1), (0, 2), (2, 0), (1, 0), (0, 3), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	*	*	
+*	*	*	128	
+*	*	16	16	
+2	*	2	4	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (0, 0), (3, 1), (2, 1), (0, 2), (2, 0), (1, 0), (0, 3), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	*	*	
+*	*	2	128	
+*	*	16	16	
+2	*	2	4	
+
+******************************
+#### turn 83 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 57 ####
+empty list: set([(0, 1), (0, 0), (3, 0), (3, 1), (2, 1), (0, 2), (2, 0), (2, 2), (1, 0), (0, 3), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	*	*	
+*	*	2	128	
+*	*	*	32	
+*	*	4	4	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (0, 0), (3, 0), (3, 1), (2, 1), (0, 2), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	*	2	
+*	*	2	128	
+*	*	*	32	
+*	*	4	4	
+
+******************************
+#### turn 84 ####
+search depth 2
+#### predict direction is left ####
+#### best score is 57 ####
+empty list: set([(0, 1), (1, 2), (3, 2), (1, 3), (3, 3), (3, 1), (2, 1), (2, 3), (2, 2), (0, 3), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+2	*	*	*	
+2	128	*	*	
+32	*	*	*	
+8	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 2), (3, 2), (1, 3), (3, 3), (2, 1), (2, 3), (2, 2), (0, 3), (0, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	*	*	*	
+2	128	*	*	
+32	*	*	*	
+8	2	*	*	
+
+******************************
+#### turn 85 ####
+search depth 2
+#### predict direction is up ####
+#### best score is 71 ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 1), (2, 3), (2, 2), (0, 3), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+4	128	*	*	
+32	2	*	*	
+8	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 3), (3, 0), (2, 1), (2, 3), (2, 2), (0, 3), (0, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+4	128	*	*	
+32	2	*	*	
+8	*	*	*	
+*	2	*	*	
+
+******************************
+#### turn 86 ####
+search depth 2
+#### predict direction is up ####
+#### best score is 74 ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 1), (2, 3), (2, 2), (0, 3), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+4	128	*	*	
+32	4	*	*	
+8	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 3), (2, 2), (0, 3), (0, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+4	128	*	*	
+32	4	*	*	
+8	2	*	*	
+*	*	*	*	
+
+******************************
+#### turn 87 ####
+search depth 2
+#### predict direction is left ####
+#### best score is 90 ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 3), (2, 2), (0, 3), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+4	128	*	*	
+32	4	*	*	
+8	2	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 3), (2, 2), (0, 3)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+4	128	2	*	
+32	4	*	*	
+8	2	*	*	
+*	*	*	*	
+
+******************************
+#### turn 88 ####
+search depth 3
+#### predict direction is left ####
+#### best score is 126 ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 3), (2, 2), (0, 3)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+4	128	2	*	
+32	4	*	*	
+8	2	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 3), (3, 0), (2, 3), (2, 2), (0, 3)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+4	128	2	*	
+32	4	*	*	
+8	2	*	*	
+*	2	*	*	
+
+******************************
+#### turn 89 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 111 ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 3), (2, 2), (0, 3)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+4	128	2	*	
+32	4	*	*	
+8	4	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 3), (3, 0), (2, 3), (2, 2), (0, 3)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+4	128	2	*	
+32	4	*	*	
+8	4	*	*	
+*	2	*	*	
+
+******************************
+#### turn 90 ####
+search depth 3
+#### predict direction is left ####
+#### best score is 113 ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 3), (3, 1), (2, 3), (2, 2), (0, 3)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+4	128	2	*	
+32	4	*	*	
+8	4	*	*	
+2	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (3, 3), (3, 1), (2, 3), (2, 2), (0, 3)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+4	128	2	*	
+32	4	*	2	
+8	4	*	*	
+2	*	*	*	
+
+******************************
+#### turn 91 ####
+search depth 3
+#### predict direction is down ####
+#### best score is 132 ####
+empty list: set([(0, 1), (1, 2), (1, 3), (1, 1), (2, 3), (2, 2), (0, 3), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+4	*	*	*	
+32	*	*	*	
+8	128	*	*	
+2	8	2	2	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 2), (1, 3), (1, 1), (2, 3), (0, 3), (0, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+4	*	*	*	
+32	*	*	*	
+8	128	2	*	
+2	8	2	2	
+
+******************************
+#### turn 92 ####
+search depth 3
+#### predict direction is left ####
+#### best score is 151 ####
+empty list: set([(0, 1), (1, 2), (1, 3), (3, 3), (1, 1), (2, 3), (0, 3), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+4	*	*	*	
+32	*	*	*	
+8	128	2	*	
+2	8	4	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 2), (1, 3), (3, 3), (1, 1), (0, 3), (0, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+4	*	*	*	
+32	*	*	*	
+8	128	2	2	
+2	8	4	*	
+
+******************************
+#### turn 93 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 133 ####
+empty list: set([(3, 2), (1, 3), (3, 3), (3, 1), (2, 1), (2, 3), (2, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+4	128	2	2	
+32	8	4	*	
+8	*	*	*	
+2	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (1, 3), (3, 3), (2, 1), (2, 3), (2, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+4	128	2	2	
+32	8	4	*	
+8	*	*	*	
+2	2	*	*	
+
+******************************
+#### turn 94 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 128 ####
+empty list: set([(3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	4	128	4	
+*	32	8	4	
+*	*	*	8	
+*	*	*	4	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	4	128	4	
+2	32	8	4	
+*	*	*	8	
+*	*	*	4	
+
+******************************
+#### turn 95 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 133 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+2	4	128	8	
+*	32	8	8	
+*	*	*	4	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 0), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	4	128	8	
+*	32	8	8	
+*	2	*	4	
+*	*	*	*	
+
+******************************
+#### turn 96 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 134 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 0), (2, 3), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+2	4	128	16	
+*	32	8	4	
+*	2	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 3), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	4	128	16	
+*	32	8	4	
+2	2	*	*	
+*	*	*	*	
+
+******************************
+#### turn 97 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 126 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+2	4	128	16	
+*	32	8	4	
+*	*	*	4	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	4	128	16	
+*	32	8	4	
+2	*	*	4	
+*	*	*	*	
+
+******************************
+#### turn 98 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 91 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+4	4	128	16	
+*	32	8	8	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 3), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+4	4	128	16	
+*	32	8	8	
+*	*	*	*	
+2	*	*	*	
+
+******************************
+#### turn 99 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 94 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+4	4	128	16	
+2	32	8	8	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 0), (2, 3), (2, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+4	4	128	16	
+2	32	8	8	
+*	2	*	*	
+*	*	*	*	
+
+******************************
+#### turn 100 ####
+search depth 3
+#### predict direction is left ####
+#### best score is 109 ####
+empty list: set([(3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 1), (2, 3), (2, 2), (0, 3)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+8	128	16	*	
+2	32	16	*	
+2	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 3), (3, 3), (3, 0), (3, 1), (2, 1), (2, 3), (2, 2), (0, 3)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+8	128	16	*	
+2	32	16	*	
+2	*	*	*	
+*	*	2	*	
+
+******************************
+#### turn 101 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 111 ####
+empty list: set([(3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (0, 3)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+8	128	32	*	
+4	32	2	*	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 1), (2, 3), (2, 2), (0, 3)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+8	128	32	*	
+4	32	2	*	
+2	*	*	*	
+*	*	*	*	
+
+******************************
+#### turn 102 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 128 ####
+empty list: set([(3, 2), (0, 0), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	8	128	32	
+*	4	32	2	
+*	*	*	2	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (0, 0), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	8	128	32	
+*	4	32	2	
+*	*	2	2	
+*	*	*	*	
+
+******************************
+#### turn 103 ####
+search depth 3
+#### predict direction is left ####
+#### best score is 109 ####
+empty list: set([(3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 1), (2, 3), (2, 2), (0, 3)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+8	128	32	*	
+4	32	2	*	
+4	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (1, 3), (3, 3), (3, 1), (2, 1), (2, 3), (2, 2), (0, 3)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+8	128	32	*	
+4	32	2	*	
+4	*	*	*	
+2	*	*	*	
+
+******************************
+#### turn 104 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 109 ####
+empty list: set([(3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 1), (2, 3), (2, 2), (0, 3)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+8	128	32	*	
+8	32	2	*	
+2	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 3), (3, 3), (3, 0), (3, 1), (2, 1), (2, 3), (2, 2), (0, 3)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+8	128	32	*	
+8	32	2	*	
+2	*	*	*	
+*	*	2	*	
+
+******************************
+#### turn 105 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 126 ####
+empty list: set([(3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	8	128	32	
+*	8	32	2	
+*	*	*	2	
+*	*	*	2	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	8	128	32	
+2	8	32	2	
+*	*	*	2	
+*	*	*	2	
+
+******************************
+#### turn 106 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 126 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+2	16	128	32	
+*	*	32	4	
+*	*	*	2	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	16	128	32	
+*	*	32	4	
+*	*	*	2	
+*	*	2	*	
+
+******************************
+#### turn 107 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 127 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+2	16	128	32	
+*	*	32	4	
+*	*	2	2	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 3), (3, 1), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	16	128	32	
+*	*	32	4	
+*	*	2	2	
+2	*	*	*	
+
+******************************
+#### turn 108 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 127 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+4	16	128	32	
+*	*	32	4	
+*	*	2	2	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+4	16	128	32	
+*	*	32	4	
+2	*	2	2	
+*	*	*	*	
+
+******************************
+#### turn 109 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 137 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+4	16	128	32	
+*	*	32	4	
+*	*	2	4	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 3), (3, 1), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+4	16	128	32	
+*	*	32	4	
+*	*	2	4	
+2	*	*	*	
+
+******************************
+#### turn 110 ####
+search depth 3
+#### predict direction is down ####
+#### best score is 129 ####
+empty list: set([(0, 1), (0, 0), (2, 1), (0, 2), (1, 3), (1, 0), (0, 3), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	*	*	
+*	*	128	*	
+4	*	32	32	
+2	16	2	8	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (0, 0), (0, 2), (1, 3), (1, 0), (0, 3), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	*	*	
+*	*	128	*	
+4	2	32	32	
+2	16	2	8	
+
+******************************
+#### turn 111 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 120 ####
+empty list: set([(0, 1), (1, 2), (0, 0), (0, 2), (2, 0), (1, 0), (0, 3), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	*	*	
+*	*	*	128	
+*	4	2	64	
+2	16	2	8	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 2), (0, 0), (0, 2), (2, 0), (1, 0), (0, 3)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	*	*	
+*	2	*	128	
+*	4	2	64	
+2	16	2	8	
+
+******************************
+#### turn 112 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 118 ####
+empty list: set([(1, 2), (3, 2), (3, 3), (3, 0), (3, 1), (2, 0), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+2	2	4	128	
+*	4	*	64	
+*	16	*	8	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (3, 3), (3, 0), (3, 1), (2, 0), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	2	4	128	
+*	4	*	64	
+*	16	2	8	
+*	*	*	*	
+
+******************************
+#### turn 113 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 134 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 0), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+2	2	4	128	
+*	4	2	64	
+*	16	*	8	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 0), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	2	4	128	
+*	4	2	64	
+*	16	2	8	
+*	*	*	*	
+
+******************************
+#### turn 114 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 119 ####
+empty list: set([(3, 2), (0, 0), (3, 3), (3, 0), (3, 1), (2, 0), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	4	4	128	
+*	4	2	64	
+*	16	2	8	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (0, 0), (3, 3), (3, 0), (3, 1), (2, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	4	4	128	
+2	4	2	64	
+*	16	2	8	
+*	*	*	*	
+
+******************************
+#### turn 115 ####
+search depth 3
+#### predict direction is down ####
+#### best score is 115 ####
+empty list: set([(0, 1), (1, 2), (0, 0), (0, 2), (2, 0), (1, 0), (0, 3), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	*	*	
+*	*	*	128	
+*	8	4	64	
+2	16	4	8	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 2), (0, 0), (0, 2), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	*	2	
+*	*	*	128	
+*	8	4	64	
+2	16	4	8	
+
+******************************
+#### turn 116 ####
+search depth 3
+#### predict direction is down ####
+#### best score is 111 ####
+empty list: set([(0, 1), (1, 2), (0, 0), (1, 1), (2, 0), (2, 2), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	*	2	
+*	*	*	128	
+*	8	*	64	
+2	16	8	8	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 2), (0, 0), (1, 1), (2, 0), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	2	2	
+*	*	*	128	
+*	8	*	64	
+2	16	8	8	
+
+******************************
+#### turn 117 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 111 ####
+empty list: set([(0, 1), (1, 2), (0, 0), (3, 0), (2, 1), (1, 1), (2, 0), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	*	4	
+*	*	*	128	
+*	*	8	64	
+*	2	16	16	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 2), (0, 0), (3, 0), (2, 1), (1, 1), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	*	4	
+*	*	*	128	
+2	*	8	64	
+*	2	16	16	
+
+******************************
+#### turn 118 ####
+search depth 3
+#### predict direction is down ####
+#### best score is 112 ####
+empty list: set([(0, 1), (1, 2), (0, 0), (2, 1), (1, 1), (2, 0), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	*	4	
+*	*	*	128	
+*	*	8	64	
+2	2	16	16	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (0, 0), (2, 1), (1, 1), (2, 0), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	2	*	4	
+*	*	*	128	
+*	*	8	64	
+2	2	16	16	
+
+******************************
+#### turn 119 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 115 ####
+empty list: set([(0, 1), (1, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	2	4	
+*	*	*	128	
+*	*	8	64	
+*	*	4	32	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 2), (0, 0), (3, 0), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	2	4	
+*	*	*	128	
+*	*	8	64	
+*	2	4	32	
+
+******************************
+#### turn 120 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 114 ####
+empty list: set([(3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	2	2	4	
+*	*	8	128	
+*	*	4	64	
+*	*	*	32	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	2	2	4	
+*	*	8	128	
+*	*	4	64	
+*	*	2	32	
+
+******************************
+#### turn 121 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 134 ####
+empty list: set([(0, 1), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	4	4	
+*	*	8	128	
+*	*	4	64	
+*	*	2	32	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (0, 0), (3, 0), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	4	4	
+*	*	8	128	
+*	*	4	64	
+*	2	2	32	
+
+******************************
+#### turn 122 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 88 ####
+empty list: set([(0, 1), (0, 0), (3, 0), (3, 1), (2, 1), (1, 1), (2, 0), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	*	8	
+*	*	8	128	
+*	*	4	64	
+*	*	4	32	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (0, 0), (3, 1), (2, 1), (1, 1), (2, 0), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	*	8	
+*	*	8	128	
+*	*	4	64	
+2	*	4	32	
+
+******************************
+#### turn 123 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 101 ####
+empty list: set([(0, 1), (3, 2), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+2	*	8	8	
+*	*	8	128	
+*	*	*	64	
+*	*	*	32	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (3, 2), (3, 0), (3, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	*	8	8	
+*	*	8	128	
+*	2	*	64	
+*	*	*	32	
+
+******************************
+#### turn 124 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 107 ####
+empty list: set([(1, 2), (3, 2), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+2	2	16	8	
+*	*	*	128	
+*	*	*	64	
+*	*	*	32	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (3, 0), (3, 1), (2, 1), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	2	16	8	
+*	*	*	128	
+2	*	*	64	
+*	*	*	32	
+
+******************************
+#### turn 125 ####
+search depth 3
+#### predict direction is down ####
+#### best score is 120 ####
+empty list: set([(0, 1), (1, 2), (0, 0), (2, 1), (1, 1), (2, 0), (2, 2), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	*	8	
+*	*	*	128	
+*	*	*	64	
+4	2	16	32	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (0, 0), (2, 1), (1, 1), (2, 0), (2, 2), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	2	*	8	
+*	*	*	128	
+*	*	*	64	
+4	2	16	32	
+
+******************************
+#### turn 126 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 108 ####
+empty list: set([(1, 2), (3, 2), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+4	4	16	8	
+*	*	*	128	
+*	*	*	64	
+*	*	*	32	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (3, 0), (3, 1), (2, 1), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+4	4	16	8	
+*	*	*	128	
+2	*	*	64	
+*	*	*	32	
+
+******************************
+#### turn 127 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 111 ####
+empty list: set([(1, 2), (3, 2), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+4	4	16	8	
+2	*	*	128	
+*	*	*	64	
+*	*	*	32	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (3, 0), (2, 1), (2, 0), (2, 2), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+4	4	16	8	
+2	*	*	128	
+*	*	*	64	
+*	2	*	32	
+
+******************************
+#### turn 128 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 131 ####
+empty list: set([(1, 2), (3, 2), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+4	4	16	8	
+2	2	*	128	
+*	*	*	64	
+*	*	*	32	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (3, 0), (3, 1), (2, 1), (2, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+4	4	16	8	
+2	2	*	128	
+2	*	*	64	
+*	*	*	32	
+
+******************************
+#### turn 129 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 129 ####
+empty list: set([(1, 2), (3, 2), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+4	4	16	8	
+4	2	*	128	
+*	*	*	64	
+*	*	*	32	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (3, 0), (3, 1), (2, 1), (2, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+4	4	16	8	
+4	2	*	128	
+2	*	*	64	
+*	*	*	32	
+
+******************************
+#### turn 130 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 136 ####
+empty list: set([(3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	8	16	8	
+*	4	2	128	
+*	*	2	64	
+*	*	*	32	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	8	16	8	
+*	4	2	128	
+2	*	2	64	
+*	*	*	32	
+
+******************************
+#### turn 131 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 157 ####
+empty list: set([(3, 2), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+2	8	16	8	
+*	4	4	128	
+*	*	*	64	
+*	*	*	32	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	8	16	8	
+*	4	4	128	
+*	*	*	64	
+2	*	*	32	
+
+******************************
+#### turn 132 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 157 ####
+empty list: set([(3, 2), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+4	8	16	8	
+*	4	4	128	
+*	*	*	64	
+*	*	*	32	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+4	8	16	8	
+2	4	4	128	
+*	*	*	64	
+*	*	*	32	
+
+******************************
+#### turn 133 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 160 ####
+empty list: set([(3, 2), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+4	8	16	8	
+*	2	8	128	
+*	*	*	64	
+*	*	*	32	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 0), (3, 1), (2, 1), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+4	8	16	8	
+*	2	8	128	
+2	*	*	64	
+*	*	*	32	
+
+******************************
+#### turn 134 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 184 ####
+empty list: set([(3, 2), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+4	8	16	8	
+2	2	8	128	
+*	*	*	64	
+*	*	*	32	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 0), (3, 1), (2, 1), (2, 0), (2, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+4	8	16	8	
+2	2	8	128	
+*	*	*	64	
+*	*	2	32	
+
+******************************
+#### turn 135 ####
+search depth 3
+#### predict direction is down ####
+#### best score is 173 ####
+empty list: set([(0, 1), (1, 0), (0, 0), (0, 2), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	*	8	
+*	*	16	128	
+4	8	8	64	
+2	2	2	32	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 0), (0, 2), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	*	*	8	
+*	*	16	128	
+4	8	8	64	
+2	2	2	32	
+
+******************************
+#### turn 136 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 176 ####
+empty list: set([(0, 1), (0, 0), (3, 0), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	2	8	
+*	*	16	128	
+*	4	16	64	
+*	2	4	32	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (3, 0), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	*	2	8	
+*	*	16	128	
+*	4	16	64	
+*	2	4	32	
+
+******************************
+#### turn 137 ####
+search depth 3
+#### predict direction is down ####
+#### best score is 153 ####
+empty list: set([(0, 1), (0, 0), (1, 1), (2, 0), (1, 0), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	*	8	
+*	*	2	128	
+*	4	32	64	
+2	2	4	32	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (0, 0), (1, 1), (2, 0), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	2	8	
+*	*	2	128	
+*	4	32	64	
+2	2	4	32	
+
+******************************
+#### turn 138 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 172 ####
+empty list: set([(3, 2), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+2	4	4	8	
+*	2	32	128	
+*	*	4	64	
+*	*	*	32	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 0), (3, 1), (2, 1), (2, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	4	4	8	
+2	2	32	128	
+*	*	4	64	
+*	*	*	32	
+
+******************************
+#### turn 139 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 173 ####
+empty list: set([(3, 2), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+4	4	4	8	
+*	2	32	128	
+*	*	4	64	
+*	*	*	32	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 0), (3, 1), (2, 1), (2, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+4	4	4	8	
+2	2	32	128	
+*	*	4	64	
+*	*	*	32	
+
+******************************
+#### turn 140 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 152 ####
+empty list: set([(3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	4	8	8	
+*	4	32	128	
+*	*	4	64	
+*	*	*	32	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	4	8	8	
+2	4	32	128	
+*	*	4	64	
+*	*	*	32	
+
+******************************
+#### turn 141 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 173 ####
+empty list: set([(3, 2), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+2	8	8	8	
+*	*	32	128	
+*	*	4	64	
+*	*	*	32	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 0), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	8	8	8	
+*	*	32	128	
+*	*	4	64	
+*	2	*	32	
+
+******************************
+#### turn 142 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 175 ####
+empty list: set([(3, 2), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+2	8	8	8	
+*	2	32	128	
+*	*	4	64	
+*	*	*	32	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 0), (3, 1), (2, 0), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	8	8	8	
+*	2	32	128	
+*	2	4	64	
+*	*	*	32	
+
+******************************
+#### turn 143 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 198 ####
+empty list: set([(3, 2), (0, 0), (3, 0), (3, 1), (2, 0), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	2	8	16	
+*	2	32	128	
+*	2	4	64	
+*	*	*	32	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 0), (3, 1), (2, 0), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	2	8	16	
+*	2	32	128	
+*	2	4	64	
+*	*	*	32	
+
+******************************
+#### turn 144 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 176 ####
+empty list: set([(3, 2), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+2	4	8	16	
+*	2	32	128	
+*	*	4	64	
+*	*	*	32	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 0), (2, 1), (2, 0), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	4	8	16	
+*	2	32	128	
+*	*	4	64	
+*	2	*	32	
+
+******************************
+#### turn 145 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 175 ####
+empty list: set([(3, 2), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+2	4	8	16	
+*	4	32	128	
+*	*	4	64	
+*	*	*	32	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 0), (2, 1), (2, 0), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	4	8	16	
+*	4	32	128	
+*	*	4	64	
+*	2	*	32	
+
+******************************
+#### turn 146 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 172 ####
+empty list: set([(3, 2), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+2	8	8	16	
+*	2	32	128	
+*	*	4	64	
+*	*	*	32	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 0), (3, 1), (2, 1), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	8	8	16	
+*	2	32	128	
+2	*	4	64	
+*	*	*	32	
+
+******************************
+#### turn 147 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 173 ####
+empty list: set([(3, 2), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+4	8	8	16	
+*	2	32	128	
+*	*	4	64	
+*	*	*	32	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 0), (3, 1), (2, 1), (2, 0), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+4	8	8	16	
+*	2	32	128	
+*	*	4	64	
+*	*	2	32	
+
+******************************
+#### turn 148 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 174 ####
+empty list: set([(0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	4	16	16	
+*	2	32	128	
+*	*	4	64	
+*	*	2	32	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 0), (3, 0), (3, 1), (2, 1), (2, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	4	16	16	
+2	2	32	128	
+*	*	4	64	
+*	*	2	32	
+
+******************************
+#### turn 149 ####
+search depth 3
+#### predict direction is left ####
+#### best score is 133 ####
+empty list: set([(3, 2), (1, 3), (3, 3), (2, 3), (2, 2), (0, 3), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+4	32	*	*	
+4	32	128	*	
+4	64	*	*	
+2	32	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (1, 3), (3, 3), (2, 3), (0, 3), (0, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+4	32	*	*	
+4	32	128	*	
+4	64	2	*	
+2	32	*	*	
+
+******************************
+#### turn 150 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 124 ####
+empty list: set([(3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 3), (2, 2), (0, 3)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+8	64	128	*	
+4	64	2	*	
+2	32	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 2), (0, 3)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+8	64	128	*	
+4	64	2	*	
+2	32	*	2	
+*	*	*	*	
+
+******************************
+#### turn 151 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 106 ####
+empty list: set([(3, 2), (0, 0), (3, 3), (3, 0), (3, 1), (2, 0), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	8	64	128	
+*	4	64	2	
+*	2	32	2	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 0), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	8	64	128	
+*	4	64	2	
+*	2	32	2	
+*	*	*	*	
+
+******************************
+#### turn 152 ####
+search depth 3
+#### predict direction is down ####
+#### best score is 116 ####
+empty list: set([(0, 1), (1, 2), (0, 0), (2, 0), (1, 3), (1, 0), (0, 3), (0, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	*	*	*	
+*	8	*	*	
+*	4	128	128	
+2	2	32	4	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 1), (1, 2), (0, 0), (2, 0), (1, 3), (0, 3), (0, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	*	*	*	
+2	8	*	*	
+*	4	128	128	
+2	2	32	4	
+
+******************************
+#### turn 153 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 121 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 0), (2, 3), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+4	8	128	128	
+*	4	32	4	
+*	2	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 0), (3, 1), (2, 0), (2, 3), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+4	8	128	128	
+*	4	32	4	
+*	2	*	*	
+*	*	*	2	
+
+******************************
+#### turn 154 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 104 ####
+empty list: set([(3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	4	8	256	
+*	4	32	4	
+*	*	*	2	
+*	*	*	2	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	4	8	256	
+*	4	32	4	
+*	*	2	2	
+*	*	*	2	
+
+******************************
+#### turn 155 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 97 ####
+empty list: set([(3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	4	8	256	
+*	4	32	4	
+*	*	*	4	
+*	*	*	2	
+
+******************************
+#### random gen a unit ####
+empty list: set([(0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	4	8	256	
+*	4	32	4	
+*	*	*	4	
+*	*	2	2	
+
+******************************
+#### turn 156 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 105 ####
+empty list: set([(3, 2), (0, 0), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	8	8	256	
+*	*	32	8	
+*	*	2	2	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (0, 0), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	8	8	256	
+2	*	32	8	
+*	*	2	2	
+*	*	*	*	
+
+******************************
+#### turn 157 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 116 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+2	8	8	256	
+*	*	32	8	
+*	*	2	2	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	8	8	256	
+*	*	32	8	
+*	*	2	2	
+*	*	*	2	
+
+******************************
+#### turn 158 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 115 ####
+empty list: set([(3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	2	16	256	
+*	*	32	8	
+*	*	*	4	
+*	*	*	2	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (0, 0), (3, 0), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	2	16	256	
+*	*	32	8	
+*	*	*	4	
+*	2	*	2	
+
+******************************
+#### turn 159 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 105 ####
+empty list: set([(3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	2	16	256	
+*	*	32	8	
+*	*	*	4	
+*	*	*	4	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (0, 0), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	2	16	256	
+*	*	32	8	
+*	*	2	4	
+*	*	*	4	
+
+******************************
+#### turn 160 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 106 ####
+empty list: set([(3, 2), (0, 0), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	2	16	256	
+*	*	32	8	
+*	*	2	8	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (0, 0), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	2	16	256	
+*	2	32	8	
+*	*	2	8	
+*	*	*	*	
+
+******************************
+#### turn 161 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 123 ####
+empty list: set([(3, 2), (0, 0), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+*	4	16	256	
+*	*	32	16	
+*	*	2	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (0, 0), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+*	4	16	256	
+2	*	32	16	
+*	*	2	*	
+*	*	*	*	
+
+******************************
+#### turn 162 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 116 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+2	4	16	256	
+*	*	32	16	
+*	*	2	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 3), (3, 0), (2, 1), (2, 0), (2, 3), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	4	16	256	
+*	*	32	16	
+*	*	2	*	
+*	2	*	*	
+
+******************************
+#### turn 163 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 122 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+2	4	16	256	
+*	2	32	16	
+*	*	2	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	4	16	256	
+*	2	32	16	
+*	*	2	2	
+*	*	*	*	
+
+******************************
+#### turn 164 ####
+search depth 3
+#### predict direction is left ####
+#### best score is 103 ####
+empty list: set([(3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 1), (2, 3), (2, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+2	4	16	256	
+2	32	16	*	
+4	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (1, 3), (3, 3), (3, 0), (2, 1), (2, 3), (2, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+2	4	16	256	
+2	32	16	*	
+4	*	*	*	
+*	2	*	*	
+
+******************************
+#### turn 165 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 73 ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 0), (2, 3), (2, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+4	4	32	256	
+4	32	*	*	
+*	2	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 3), (2, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+4	4	32	256	
+4	32	*	*	
+2	2	*	*	
+*	*	*	*	
+
+******************************
+#### turn 166 ####
+search depth 3
+#### predict direction is left ####
+#### best score is 57 ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 1), (2, 3), (2, 2), (0, 3)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+8	32	256	*	
+4	32	*	*	
+4	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 1), (2, 3), (2, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+8	32	256	2	
+4	32	*	*	
+4	*	*	*	
+*	*	*	*	
+
+******************************
+#### turn 167 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 70 ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+8	64	256	2	
+8	*	*	*	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+8	64	256	2	
+8	*	*	2	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### turn 168 ####
+search depth 2
+#### predict direction is up ####
+#### best score is 56 ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+16	64	256	4	
+*	*	*	*	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+16	64	256	4	
+*	*	*	*	
+*	*	*	*	
+*	*	*	2	
+
+******************************
+#### turn 169 ####
+search depth 2
+#### predict direction is up ####
+#### best score is 70 ####
+empty list: set([(1, 2), (3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+16	64	256	4	
+*	*	*	2	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+16	64	256	4	
+*	*	*	2	
+*	*	*	2	
+*	*	*	*	
+
+******************************
+#### turn 170 ####
+search depth 2
+#### predict direction is up ####
+#### best score is 56 ####
+empty list: set([(1, 2), (3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+16	64	256	4	
+*	*	*	4	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (3, 3), (3, 0), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+16	64	256	4	
+*	*	*	4	
+*	*	*	*	
+*	2	*	*	
+
+******************************
+#### turn 171 ####
+search depth 2
+#### predict direction is up ####
+#### best score is 70 ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+16	64	256	8	
+*	2	*	*	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+16	64	256	8	
+*	2	*	*	
+*	*	*	*	
+*	*	*	2	
+
+******************************
+#### turn 172 ####
+search depth 2
+#### predict direction is up ####
+#### best score is 71 ####
+empty list: set([(1, 2), (3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+16	64	256	8	
+*	2	*	2	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+16	64	256	8	
+*	2	2	2	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### turn 173 ####
+search depth 3
+#### predict direction is left ####
+#### best score is 90 ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+16	64	256	8	
+4	2	*	*	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+16	64	256	8	
+4	2	*	*	
+*	*	*	*	
+*	*	2	*	
+
+******************************
+#### turn 174 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 88 ####
+empty list: set([(3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+16	64	256	8	
+4	2	2	*	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 1), (2, 3), (2, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+16	64	256	8	
+4	2	2	*	
+2	*	*	*	
+*	*	*	*	
+
+******************************
+#### turn 175 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 86 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+16	64	256	8	
+*	*	4	4	
+*	*	*	2	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+16	64	256	8	
+*	*	4	4	
+*	*	*	2	
+*	*	2	*	
+
+******************************
+#### turn 176 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 87 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+16	64	256	8	
+*	*	4	4	
+*	*	2	2	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 3), (3, 1), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+16	64	256	8	
+*	*	4	4	
+*	*	2	2	
+2	*	*	*	
+
+******************************
+#### turn 177 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 104 ####
+empty list: set([(1, 2), (3, 2), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+16	64	256	8	
+*	*	*	8	
+*	*	*	4	
+*	*	*	2	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+16	64	256	8	
+*	*	*	8	
+*	*	2	4	
+*	*	*	2	
+
+******************************
+#### turn 178 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 106 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+16	64	256	16	
+*	*	2	4	
+*	*	*	2	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+16	64	256	16	
+2	*	2	4	
+*	*	*	2	
+*	*	*	*	
+
+******************************
+#### turn 179 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 95 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+16	64	256	16	
+*	*	4	4	
+*	*	*	2	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+16	64	256	16	
+*	*	4	4	
+*	2	*	2	
+*	*	*	*	
+
+******************************
+#### turn 180 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 107 ####
+empty list: set([(1, 2), (3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+16	64	256	16	
+*	*	*	8	
+*	*	*	4	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+16	64	256	16	
+*	*	*	8	
+*	*	*	4	
+*	*	2	*	
+
+******************************
+#### turn 181 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 110 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+16	64	256	16	
+*	*	2	8	
+*	*	*	4	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+16	64	256	16	
+*	2	2	8	
+*	*	*	4	
+*	*	*	*	
+
+******************************
+#### turn 182 ####
+search depth 3
+#### predict direction is left ####
+#### best score is 89 ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 1), (2, 3), (2, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+16	64	256	16	
+4	8	*	*	
+4	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 1), (2, 3)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+16	64	256	16	
+4	8	*	*	
+4	*	2	*	
+*	*	*	*	
+
+******************************
+#### turn 183 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 86 ####
+empty list: set([(3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+16	64	256	16	
+8	8	2	*	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+16	64	256	16	
+8	8	2	*	
+*	*	2	*	
+*	*	*	*	
+
+******************************
+#### turn 184 ####
+search depth 3
+#### predict direction is left ####
+#### best score is 87 ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 1), (2, 3), (2, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+16	64	256	16	
+16	2	*	*	
+2	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 3), (2, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+16	64	256	16	
+16	2	*	2	
+2	*	*	*	
+*	*	*	*	
+
+******************************
+#### turn 185 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 104 ####
+empty list: set([(1, 2), (3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+32	64	256	16	
+2	2	*	2	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 3), (2, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+32	64	256	16	
+2	2	*	2	
+2	*	*	*	
+*	*	*	*	
+
+******************************
+#### turn 186 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 88 ####
+empty list: set([(1, 2), (3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+32	64	256	16	
+4	2	*	2	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (3, 3), (3, 0), (2, 1), (2, 0), (2, 3), (2, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+32	64	256	16	
+4	2	*	2	
+*	*	*	*	
+*	2	*	*	
+
+******************************
+#### turn 187 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 95 ####
+empty list: set([(1, 2), (3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+32	64	256	16	
+4	4	*	2	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 3), (2, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+32	64	256	16	
+4	4	*	2	
+2	*	*	*	
+*	*	*	*	
+
+******************************
+#### turn 188 ####
+search depth 3
+#### predict direction is left ####
+#### best score is 109 ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 1), (2, 3), (2, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+32	64	256	16	
+8	2	*	*	
+2	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 3), (2, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+32	64	256	16	
+8	2	*	2	
+2	*	*	*	
+*	*	*	*	
+
+******************************
+#### turn 189 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 116 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+32	64	256	16	
+*	*	8	4	
+*	*	*	2	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+32	64	256	16	
+*	*	8	4	
+2	*	*	2	
+*	*	*	*	
+
+******************************
+#### turn 190 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 89 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+32	64	256	16	
+*	*	8	4	
+*	*	*	4	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+32	64	256	16	
+*	*	8	4	
+*	*	2	4	
+*	*	*	*	
+
+******************************
+#### turn 191 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 86 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+32	64	256	16	
+*	*	8	8	
+*	*	2	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+32	64	256	16	
+*	2	8	8	
+*	*	2	*	
+*	*	*	*	
+
+******************************
+#### turn 192 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 87 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+32	64	256	16	
+*	*	2	16	
+*	*	*	2	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+32	64	256	16	
+*	*	2	16	
+*	2	*	2	
+*	*	*	*	
+
+******************************
+#### turn 193 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 104 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+32	64	256	32	
+*	2	2	2	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 3), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+32	64	256	32	
+*	2	2	2	
+*	*	*	*	
+2	*	*	*	
+
+******************************
+#### turn 194 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 88 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+32	64	256	32	
+2	2	2	2	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+32	64	256	32	
+2	2	2	2	
+*	*	*	2	
+*	*	*	*	
+
+******************************
+#### turn 195 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 95 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+32	64	256	32	
+*	*	4	4	
+*	*	*	2	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 3), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+32	64	256	32	
+*	*	4	4	
+*	*	*	2	
+2	*	*	*	
+
+******************************
+#### turn 196 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 107 ####
+empty list: set([(1, 2), (3, 2), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+32	64	256	32	
+*	*	*	8	
+*	*	*	2	
+*	*	*	2	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 2), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+32	64	256	32	
+*	*	*	8	
+*	*	*	2	
+*	*	2	2	
+
+******************************
+#### turn 197 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 110 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+32	64	256	32	
+*	*	2	8	
+*	*	*	4	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+32	64	256	32	
+*	*	2	8	
+*	*	2	4	
+*	*	*	*	
+
+******************************
+#### turn 198 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 130 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+32	64	256	32	
+*	*	4	8	
+*	*	*	4	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 3), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+32	64	256	32	
+*	*	4	8	
+*	*	*	4	
+2	*	*	*	
+
+******************************
+#### turn 199 ####
+search depth 3
+#### predict direction is left ####
+#### best score is 106 ####
+empty list: set([(1, 2), (3, 2), (1, 3), (3, 3), (3, 1), (2, 1), (2, 3), (2, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+32	64	256	32	
+4	8	*	*	
+4	*	*	*	
+2	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (1, 3), (3, 3), (3, 1), (2, 1), (2, 3), (2, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+32	64	256	32	
+4	8	2	*	
+4	*	*	*	
+2	*	*	*	
+
+******************************
+#### turn 200 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 110 ####
+empty list: set([(3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 1), (2, 3), (2, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+32	64	256	32	
+8	8	2	*	
+2	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (1, 3), (3, 0), (3, 1), (2, 1), (2, 3), (2, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+32	64	256	32	
+8	8	2	*	
+2	*	*	*	
+*	*	*	2	
+
+******************************
+#### turn 201 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 111 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 3), (2, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+32	64	256	32	
+8	8	2	2	
+2	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 0), (3, 1), (2, 1), (2, 3), (2, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+32	64	256	32	
+8	8	2	2	
+2	*	*	*	
+*	*	*	2	
+
+******************************
+#### turn 202 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 121 ####
+empty list: set([(3, 2), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+32	64	256	32	
+*	*	16	4	
+*	*	*	2	
+*	*	*	2	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 0), (3, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+32	64	256	32	
+*	*	16	4	
+*	2	*	2	
+*	*	*	2	
+
+******************************
+#### turn 203 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 140 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+32	64	256	32	
+*	2	16	4	
+*	*	*	4	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+32	64	256	32	
+2	2	16	4	
+*	*	*	4	
+*	*	*	*	
+
+******************************
+#### turn 204 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 144 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+32	64	256	32	
+2	2	16	8	
+*	*	*	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3), (2, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+32	64	256	32	
+2	2	16	8	
+*	*	*	*	
+*	*	2	*	
+
+******************************
+#### turn 205 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 145 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 3)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+32	64	256	32	
+2	2	16	8	
+*	*	2	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 3), (3, 1), (2, 1), (2, 0), (2, 3)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+32	64	256	32	
+2	2	16	8	
+*	*	2	*	
+2	*	*	*	
+
+******************************
+#### turn 206 ####
+search depth 3
+#### predict direction is left ####
+#### best score is 149 ####
+empty list: set([(3, 2), (1, 3), (3, 3), (3, 1), (2, 1), (2, 3), (2, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+32	64	256	32	
+4	16	8	*	
+2	*	*	*	
+2	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 3), (3, 3), (3, 1), (2, 1), (2, 3), (2, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+32	64	256	32	
+4	16	8	*	
+2	*	*	*	
+2	*	2	*	
+
+******************************
+#### turn 207 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 170 ####
+empty list: set([(3, 2), (1, 3), (3, 3), (3, 0), (3, 1), (2, 1), (2, 3)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+32	64	256	32	
+4	16	8	*	
+4	*	2	*	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(1, 3), (3, 3), (3, 0), (3, 1), (2, 1), (2, 3)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+32	64	256	32	
+4	16	8	*	
+4	*	2	*	
+*	*	2	*	
+
+******************************
+#### turn 208 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 168 ####
+empty list: set([(3, 2), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+32	64	256	32	
+*	4	16	8	
+*	*	4	2	
+*	*	*	2	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 0), (2, 1), (2, 0), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+32	64	256	32	
+*	4	16	8	
+*	*	4	2	
+*	2	*	2	
+
+******************************
+#### turn 209 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 167 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 0), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+32	64	256	32	
+*	4	16	8	
+*	2	4	4	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 3), (3, 0), (2, 0), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+32	64	256	32	
+*	4	16	8	
+*	2	4	4	
+*	2	*	*	
+
+******************************
+#### turn 210 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 134 ####
+empty list: set([(3, 2), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+32	64	256	32	
+*	4	16	8	
+*	*	2	8	
+*	*	*	2	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 1), (2, 1), (2, 0), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+32	64	256	32	
+*	4	16	8	
+*	*	2	8	
+2	*	*	2	
+
+******************************
+#### turn 211 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 128 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+32	64	256	32	
+2	4	16	16	
+*	*	2	2	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 0), (3, 1), (2, 1), (2, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+32	64	256	32	
+2	4	16	16	
+*	*	2	2	
+*	*	*	2	
+
+******************************
+#### turn 212 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 109 ####
+empty list: set([(3, 2), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+32	64	256	32	
+*	2	4	32	
+*	*	*	4	
+*	*	*	2	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 0), (3, 1), (2, 0), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+32	64	256	32	
+*	2	4	32	
+*	2	*	4	
+*	*	*	2	
+
+******************************
+#### turn 213 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 116 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+32	64	256	64	
+*	4	4	4	
+*	*	*	2	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+32	64	256	64	
+*	4	4	4	
+2	*	*	2	
+*	*	*	*	
+
+******************************
+#### turn 214 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 130 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+32	64	256	64	
+2	4	4	4	
+*	*	*	2	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+32	64	256	64	
+2	4	4	4	
+*	*	2	2	
+*	*	*	*	
+
+******************************
+#### turn 215 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 151 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+32	64	256	64	
+*	2	4	8	
+*	*	*	4	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 0), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+32	64	256	64	
+*	2	4	8	
+*	2	*	4	
+*	*	*	*	
+
+******************************
+#### turn 216 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 108 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+32	64	256	64	
+*	4	4	8	
+*	*	*	4	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+32	64	256	64	
+2	4	4	8	
+*	*	*	4	
+*	*	*	*	
+
+******************************
+#### turn 217 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 127 ####
+empty list: set([(3, 2), (3, 3), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+32	64	256	64	
+*	2	8	8	
+*	*	*	4	
+*	*	*	*	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 3), (3, 0), (2, 1), (2, 0), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+32	64	256	64	
+*	2	8	8	
+*	*	*	4	
+*	2	*	*	
+
+******************************
+#### turn 218 ####
+search depth 3
+#### predict direction is right ####
+#### best score is 130 ####
+empty list: set([(3, 2), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+32	64	256	64	
+*	*	2	16	
+*	*	*	4	
+*	*	*	2	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 0), (3, 1), (2, 1), (2, 0), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+32	64	256	64	
+*	*	2	16	
+*	*	2	4	
+*	*	*	2	
+
+******************************
+#### turn 219 ####
+search depth 3
+#### predict direction is up ####
+#### best score is 152 ####
+empty list: set([(3, 2), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0), (1, 1)])
+score: None
+child num: 0
+flag: 1
+direction: None
+matrix data: 
+32	64	256	64	
+*	*	4	16	
+*	*	*	4	
+*	*	*	2	
+
+******************************
+#### random gen a unit ####
+empty list: set([(3, 2), (3, 0), (3, 1), (2, 1), (2, 0), (2, 2), (1, 0)])
+score: None
+child num: 0
+flag: 0
+direction: None
+matrix data: 
+32	64	256	64	
+*	2	4	16	
+*	*	*	4	
+*	*	*	2	
+
+******************************
+#### turn 220 ####
+search depth 3
