@@ -62,5 +62,20 @@ class TestDict(unittest.TestCase):
         self.assertEquals(m.flag, 0)
 
 
+    def test_check(self):
+        m = ai_2048.Matrix(data=self.data)
+        rsp = m.check_move()
+        self.assertEqual(rsp, 1)
+        self.assertEqual(m.ava_move, set([0,1,2,3]))
+        n = ai_2048.Matrix(data=np.array([[1,2,3,4], [4,3,2,1], [1,2,3,4], [4,3,2,1]]))
+        rsp = n.check_move()
+        self.assertEqual(rsp, 0)
+        self.assertEqual(n.ava_move, set())
+        z = ai_2048.Matrix(data=np.array([[1,2,3,4], [0,3,4,5], [0,0,0,0], [0,0,0,0]]))
+        rsp = z.check_move()
+        self.assertEqual(rsp, 1)
+        self.assertEqual(z.ava_move, set([2, 3]))
+
+
 if __name__ == '__main__':
     unittest.main()
