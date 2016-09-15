@@ -8,7 +8,6 @@ import math
 
 class Matrix(object):
     def __init__(self, matrix=None, size=4, start_unit=3, data=None, flag=0):
-        """初始化，包括自动初始化，给定矩阵初始化和直接copy初始化"""
         # self.ava_move = []
         self.score = None
         self.empty_list = set()
@@ -141,7 +140,6 @@ class Matrix(object):
             return self._line_push(line[::-1], 1)[::-1]
 
     def _refresh_empty_list(self):
-        """初始化或者push之后刷新空位置列表"""
         self.empty_list = set()
         map(
             lambda pair: self.empty_list.add(pair),
@@ -181,7 +179,6 @@ class Matrix(object):
 
 
     def check_move(self):
-        """查询下一步可以push的方向"""
         move = set()
         for i in range(self.size):
             for j in range(self.size):
