@@ -1,0 +1,542 @@
+{u'original_text': u'\u306e', u'subtitle': None, u'reversed_lcontext': u'\u578b\u5c0f\u308a\u306a\u304b\u3001\u304d\u3067\u304c\u3068\u3053\u308b\u3059\u6e1b\u8efd\u3092\u7528\u8cbb\u6210\u713c\u3001\u3066\u3063\u3088\u306b\u3068\u3053\u308b\u3059\u7d04\u7bc0\u3092\u6599\u71c3', u'volno': None, u'orth_token': u'\u306e', u'pos': u'\u52a9\u8a5e-\u683c\u52a9\u8a5e', u'author_name': u'\u30a8\u30de\u30cb\u30e5\u30a8\u30eb\u30fb\u30af\u30fc\u30d1\u30fc(\u8457)/\u5357\u96f2\u3000\u9f8d\u6bd4\u53e4(\u8a33)', u'variable_length': True, u'sample_id': u'LBl7_00060', u'form_base': u'\u30ce', u'lemma': u'\u306e', u'orth_token_open': 2970, u'bib_author': u'\u30a8\u30de\u30cb\u30e5\u30a8\u30eb\u30fb\u30af\u30fc\u30d1\u30fc|\u8457;\u5357\u96f2\u9f8d|\u8a33\u76e3\u4fee;\u5357\u96f2\u9f8d\u6bd4\u53e4|\u8a33', u'cform': u"''", u'token_id': 86671098042, u'reading': u'\u30ce', u'birth_year': u'1930/1960', u'published_year': 1997, u'core': False, u'rcontext': [{u'form_base': u'\u30c7\u30f3\u30ad', u'wtype': u'\u6f22', u'orth_base': u'\u96fb\u6c17', u'pos': u'\u540d\u8a5e-\u666e\u901a\u540d\u8a5e-\u4e00\u822c', u'ctype': u"''", u'lemma': u'\u96fb\u6c17', u'cform': u"''", u'orth_token': u'\u96fb\u6c17', u'reading': u'\u30c7\u30f3\u30ad', u'pron_token': u'\u30c7\u30f3\u30ad'}, {u'form_base': u'\u30e8\u30a6', u'wtype': u'\u6f22', u'orth_base': u'\u7aaf', u'pos': u'\u63a5\u5c3e\u8f9e-\u540d\u8a5e\u7684-\u4e00\u822c', u'ctype': u"''", u'lemma': u'\u7aaf', u'cform': u"''", u'orth_token': u'\u7aaf', u'reading': u'\u30e8\u30a6', u'pron_token': u'\u30e8\u30fc'}, {u'form_base': u'\u30c7', u'wtype': u'\u548c', u'orth_base': u'\u3067', u'pos': u'\u52a9\u8a5e-\u683c\u52a9\u8a5e', u'ctype': u"''", u'lemma': u'\u3067', u'cform': u"''", u'orth_token': u'\u3067', u'reading': u'\u30c7', u'pron_token': u'\u30c7'}, {u'form_base': u'', u'wtype': u'\u8a18\u53f7', u'orth_base': u'\u3001', u'pos': u'\u88dc\u52a9\u8a18\u53f7-\u8aad\u70b9', u'ctype': u"''", u'lemma': u'\u3001', u'cform': u"''", u'orth_token': u'\u3001', u'reading': u'', u'pron_token': u''}, {u'form_base': u'\u30ab\u30c6\u30a4', u'wtype': u'\u6f22', u'orth_base': u'\u5bb6\u5ead', u'pos': u'\u540d\u8a5e-\u666e\u901a\u540d\u8a5e-\u4e00\u822c', u'ctype': u"''", u'lemma': u'\u5bb6\u5ead', u'cform': u"''", u'orth_token': u'\u5bb6\u5ead', u'reading': u'\u30ab\u30c6\u30a4', u'pron_token': u'\u30ab\u30c6\u30fc'}, {u'form_base': u'\u30e8\u30a6', u'wtype': u'\u6f22', u'orth_base': u'\u7528', u'pos': u'\u63a5\u5c3e\u8f9e-\u540d\u8a5e\u7684-\u4e00\u822c', u'ctype': u"''", u'lemma': u'\u7528', u'cform': u"''", u'orth_token': u'\u7528', u'reading': u'\u30e8\u30a6', u'pron_token': u'\u30e8\u30fc'}, {u'form_base': u'\u30ce', u'wtype': u'\u548c', u'orth_base': u'\u306e', u'pos': u'\u52a9\u8a5e-\u683c\u52a9\u8a5e', u'ctype': u"''", u'lemma': u'\u306e', u'cform': u"''", u'orth_token': u'\u306e', u'reading': u'\u30ce', u'pron_token': u'\u30ce'}, {u'form_base': u'\u30b7\u30e7\u30c3\u30ad', u'wtype': u'\u6f22', u'orth_base': u'\u98df\u5668', u'pos': u'\u540d\u8a5e-\u666e\u901a\u540d\u8a5e-\u4e00\u822c', u'ctype': u"''", u'lemma': u'\u98df\u5668', u'cform': u"''", u'orth_token': u'\u98df\u5668', u'reading': u'\u30b7\u30e7\u30c3\u30ad', u'pron_token': u'\u30b7\u30e7\u30c3\u30ad'}, {u'form_base': u'\u30eb\u30a4', u'wtype': u'\u6f22', u'orth_base': u'\u985e', u'pos': u'\u63a5\u5c3e\u8f9e-\u540d\u8a5e\u7684-\u4e00\u822c', u'ctype': u"''", u'lemma': u'\u985e', u'cform': u"''", u'orth_token': u'\u985e', u'reading': u'\u30eb\u30a4', u'pron_token': u'\u30eb\u30a4'}, {u'form_base': u'\u30c0', u'wtype': u'\u548c', u'orth_base': u'\u3060', u'pos': u'\u52a9\u52d5\u8a5e', u'ctype': u'\u52a9\u52d5\u8a5e-\u30c0', u'lemma': u'\u3060', u'cform': u'\u4eee\u5b9a\u5f62-\u4e00\u822c', u'orth_token': u'\u306a\u3089', u'reading': u'\u30c0', u'pron_token': u'\u30ca\u30e9'}, {u'orth_token': u'\u76f8\u5f53'}, {u'orth_token': u'\u306e'}, {u'orth_token': u'\u91cf'}, {u'orth_token': u'\u304c'}, {u'orth_token': u'\u713c\u6210'}, {u'orth_token': u'\u3067\u304d\u308b'}, {u'orth_token': u'\u3088\u3046'}, {u'orth_token': u'\u306b'}, {u'orth_token': u'\u306a\u308a'}, {u'orth_token': u'\u307e\u3057'}, {u'orth_token': u'\u305f'}, {u'is_eos': True, u'orth_token': u'\u3002'}, {u'is_bos': True, u'orth_token': u'\u30ac\u30b9'}, {u'orth_token': u'\u7aaf'}, {u'orth_token': u'\u306e'}, {u'orth_token': u'\u5834\u5408'}, {u'orth_token': u'\u3082'}, {u'orth_token': u'\u3001'}, {u'orth_token': u'\u5f93\u6765'}, {u'orth_token': u'\u3088\u308a'}, {u'orth_token': u'\u306f\u308b\u304b'}, {u'orth_token': u'\u306b'}, {u'orth_token': u'\u52b9\u679c'}, {u'orth_token': u'\u7684'}, {u'orth_token': u'\u306b'}, {u'orth_token': u'\u7bc9\u304f'}, {u'orth_token': u'\u3053\u3068'}, {u'orth_token': u'\u304c'}, {u'orth_token': u'\u3067\u304d'}, {u'orth_token': u'\u3001'}, {u'orth_token': u'\u3055\u3089\u306b'}, {u'orth_token': u'\u697d\u713c\u304d'}, {u'orth_token': u'\u306e'}, {u'orth_token': u'\u5834\u5408'}, {u'orth_token': u'\u306f'}, {u'orth_token': u'\u3001'}, {u'orth_token': u'\u7c21\u5358'}, {u'orth_token': u'\u306a'}, {u'orth_token': u'\u91d1\u5c5e'}, {u'orth_token': u'\u88fd'}], u'cr_status': 1, u'orth_base': u'\u306e', u'lemma_id': 28989, u'ctype': u"''", u'sentence_id': 798317, u'corpus_name': u'LB', u'subcorpus_name': u'\u56f3\u66f8\u9928\u30fb\u66f8\u7c4d', u'genre': u'7 \u82b8\u8853\u30fb\u7f8e\u8853', u'fixed_length': True, u'lcontext': [{u'orth_token': u'\u534a\u5206'}, {u'orth_token': u'\u306e'}, {u'orth_token': u'\u5927\u304d'}, {u'orth_token': u'\u3055'}, {u'orth_token': u'\u3067'}, {u'orth_token': u'\u3001'}, {u'orth_token': u'\u3057\u304b\u3082'}, {u'orth_token': u'\u713c\u6210'}, {u'orth_token': u'\u5ba4'}, {u'orth_token': u'\u306f'}, {u'orth_token': u'\u307b\u3068\u3093\u3069'}, {u'orth_token': u'\u540c\u3058'}, {u'orth_token': u'\u5bb9\u7a4d'}, {u'orth_token': u'\u306e'}, {u'orth_token': u'\u7aaf'}, {u'orth_token': u'\u304c'}, {u'orth_token': u'\u7bc9\u3051\u308b'}, {u'orth_token': u'\u3088\u3046'}, {u'orth_token': u'\u306b'}, {u'orth_token': u'\u306a\u3063'}, {u'orth_token': u'\u305f'}, {u'orth_token': u'\u306e'}, {u'orth_token': u'\u3067\u3059'}, {u'is_eos': True, u'orth_token': u'\u3002'}, {u'is_bos': True, u'orth_token': u'\u540c\u3058'}, {u'orth_token': u'\u3088\u3046'}, {u'orth_token': u'\u306b'}, {u'orth_token': u'\u3001'}, {u'orth_token': u'\u4f7f\u7528'}, {u'orth_token': u'\u3059\u308b'}, {u'orth_token': u'\u71c3\u6599'}, {u'orth_token': u'\u3092'}, {u'orth_token': u'\u7bc0\u7d04'}, {u'orth_token': u'\u3059\u308b'}, {u'orth_token': u'\u3053\u3068'}, {u'orth_token': u'\u306b'}, {u'orth_token': u'\u3088\u3063'}, {u'orth_token': u'\u3066'}, {u'orth_token': u'\u3001'}, {u'orth_token': u'\u713c\u6210'}, {u'form_base': u'\u30d2\u30e8\u30a6', u'wtype': u'\u6f22', u'orth_base': u'\u8cbb\u7528', u'pos': u'\u540d\u8a5e-\u666e\u901a\u540d\u8a5e-\u4e00\u822c', u'ctype': u"''", u'lemma': u'\u8cbb\u7528', u'cform': u"''", u'orth_token': u'\u8cbb\u7528', u'reading': u'\u30d2\u30e8\u30a6', u'pron_token': u'\u30d2\u30e8\u30fc'}, {u'form_base': u'\u30f2', u'wtype': u'\u548c', u'orth_base': u'\u3092', u'pos': u'\u52a9\u8a5e-\u683c\u52a9\u8a5e', u'ctype': u"''", u'lemma': u'\u3092', u'cform': u"''", u'orth_token': u'\u3092', u'reading': u'\u30f2', u'pron_token': u'\u30aa'}, {u'form_base': u'\u30b1\u30a4\u30b2\u30f3', u'wtype': u'\u6f22', u'orth_base': u'\u8efd\u6e1b', u'pos': u'\u540d\u8a5e-\u666e\u901a\u540d\u8a5e-\u30b5\u5909\u53ef\u80fd', u'ctype': u"''", u'lemma': u'\u8efd\u6e1b', u'cform': u"''", u'orth_token': u'\u8efd\u6e1b', u'reading': u'\u30b1\u30a4\u30b2\u30f3', u'pron_token': u'\u30b1\u30fc\u30b2\u30f3'}, {u'form_base': u'\u30b9\u30eb', u'wtype': u'\u548c', u'orth_base': u'\u3059\u308b', u'pos': u'\u52d5\u8a5e-\u975e\u81ea\u7acb\u53ef\u80fd', u'ctype': u'\u30b5\u884c\u5909\u683c', u'lemma': u'\u70ba\u308b', u'cform': u'\u9023\u4f53\u5f62-\u4e00\u822c', u'orth_token': u'\u3059\u308b', u'reading': u'\u30b9\u30eb', u'pron_token': u'\u30b9\u30eb'}, {u'form_base': u'\u30b3\u30c8', u'wtype': u'\u548c', u'orth_base': u'\u3053\u3068', u'pos': u'\u540d\u8a5e-\u666e\u901a\u540d\u8a5e-\u4e00\u822c', u'ctype': u"''", u'lemma': u'\u4e8b', u'cform': u"''", u'orth_token': u'\u3053\u3068', u'reading': u'\u30b3\u30c8', u'pron_token': u'\u30b3\u30c8'}, {u'form_base': u'\u30ac', u'wtype': u'\u548c', u'orth_base': u'\u304c', u'pos': u'\u52a9\u8a5e-\u683c\u52a9\u8a5e', u'ctype': u"''", u'lemma': u'\u304c', u'cform': u"''", u'orth_token': u'\u304c', u'reading': u'\u30ac', u'pron_token': u'\u30ac'}, {u'form_base': u'\u30c7\u30ad\u30eb', u'wtype': u'\u548c', u'orth_base': u'\u3067\u304d\u308b', u'pos': u'\u52d5\u8a5e-\u975e\u81ea\u7acb\u53ef\u80fd', u'ctype': u'\u4e0a\u4e00\u6bb5-\u30ab\u884c', u'lemma': u'\u51fa\u6765\u308b', u'cform': u'\u9023\u7528\u5f62-\u4e00\u822c', u'orth_token': u'\u3067\u304d', u'reading': u'\u30c7\u30ad\u30eb', u'pron_token': u'\u30c7\u30ad'}, {u'form_base': u'', u'wtype': u'\u8a18\u53f7', u'orth_base': u'\u3001', u'pos': u'\u88dc\u52a9\u8a18\u53f7-\u8aad\u70b9', u'ctype': u"''", u'lemma': u'\u3001', u'cform': u"''", u'orth_token': u'\u3001', u'reading': u'', u'pron_token': u''}, {u'form_base': u'\u30ab\u30ca\u30ea', u'wtype': u'\u6df7', u'orth_base': u'\u304b\u306a\u308a', u'pos': u'\u526f\u8a5e', u'ctype': u"''", u'lemma': u'\u53ef\u6210', u'cform': u"''", u'orth_token': u'\u304b\u306a\u308a', u'reading': u'\u30ab\u30ca\u30ea', u'pron_token': u'\u30ab\u30ca\u30ea'}, {u'form_base': u'\u30b3\u30ac\u30bf', u'wtype': u'\u548c', u'orth_base': u'\u5c0f\u578b', u'pos': u'\u540d\u8a5e-\u666e\u901a\u540d\u8a5e-\u5f62\u72b6\u8a5e\u53ef\u80fd', u'ctype': u"''", u'lemma': u'\u5c0f\u578b', u'cform': u"''", u'orth_token': u'\u5c0f\u578b', u'reading': u'\u30b3\u30ac\u30bf', u'pron_token': u'\u30b3\u30ac\u30bf'}], u'genre1': u'7 \u82b8\u8853\u30fb\u7f8e\u8853', u'publisher': u'\u65e5\u8cbf\u51fa\u7248\u793e', u'genre3': u'0072', u'genre2': u'751', u'genre4': None, u'keyword': [{u'orth_token': u'\u306e'}], u'gender': u'\u7537/\u7537', u'wtype': u'\u548c', u'title': u'\u4e16\u754c\u306e\u9676\u82b8\u53f2', u'meaning': u'', u'matched_position': 2970, u'credit': None, u'token_offset': 2970, u'token_order': 1860, u's_orth_token_open': 253, u'pron_token': u'\u30ce', u'bibliography_id': 5166}
+****************************************************************************************************
+{
+    "original_text": "の", 
+    "subtitle": null, 
+    "reversed_lcontext": "型小りなか、きでがとこるす減軽を用費成焼、てっよにとこるす約節を料燃", 
+    "volno": null, 
+    "orth_token": "の", 
+    "pos": "助詞-格助詞", 
+    "author_name": "エマニュエル・クーパー(著)/南雲　龍比古(訳)", 
+    "variable_length": true, 
+    "sample_id": "LBl7_00060", 
+    "form_base": "ノ", 
+    "lemma": "の", 
+    "orth_token_open": 2970, 
+    "bib_author": "エマニュエル・クーパー|著;南雲龍|訳監修;南雲龍比古|訳", 
+    "cform": "''", 
+    "token_id": 86671098042, 
+    "reading": "ノ", 
+    "birth_year": "1930/1960", 
+    "published_year": 1997, 
+    "core": false, 
+    "rcontext": [
+        {
+            "form_base": "デンキ", 
+            "wtype": "漢", 
+            "orth_base": "電気", 
+            "pos": "名詞-普通名詞-一般", 
+            "ctype": "''", 
+            "lemma": "電気", 
+            "cform": "''", 
+            "orth_token": "電気", 
+            "reading": "デンキ", 
+            "pron_token": "デンキ"
+        }, 
+        {
+            "form_base": "ヨウ", 
+            "wtype": "漢", 
+            "orth_base": "窯", 
+            "pos": "接尾辞-名詞的-一般", 
+            "ctype": "''", 
+            "lemma": "窯", 
+            "cform": "''", 
+            "orth_token": "窯", 
+            "reading": "ヨウ", 
+            "pron_token": "ヨー"
+        }, 
+        {
+            "form_base": "デ", 
+            "wtype": "和", 
+            "orth_base": "で", 
+            "pos": "助詞-格助詞", 
+            "ctype": "''", 
+            "lemma": "で", 
+            "cform": "''", 
+            "orth_token": "で", 
+            "reading": "デ", 
+            "pron_token": "デ"
+        }, 
+        {
+            "form_base": "", 
+            "wtype": "記号", 
+            "orth_base": "、", 
+            "pos": "補助記号-読点", 
+            "ctype": "''", 
+            "lemma": "、", 
+            "cform": "''", 
+            "orth_token": "、", 
+            "reading": "", 
+            "pron_token": ""
+        }, 
+        {
+            "form_base": "カテイ", 
+            "wtype": "漢", 
+            "orth_base": "家庭", 
+            "pos": "名詞-普通名詞-一般", 
+            "ctype": "''", 
+            "lemma": "家庭", 
+            "cform": "''", 
+            "orth_token": "家庭", 
+            "reading": "カテイ", 
+            "pron_token": "カテー"
+        }, 
+        {
+            "form_base": "ヨウ", 
+            "wtype": "漢", 
+            "orth_base": "用", 
+            "pos": "接尾辞-名詞的-一般", 
+            "ctype": "''", 
+            "lemma": "用", 
+            "cform": "''", 
+            "orth_token": "用", 
+            "reading": "ヨウ", 
+            "pron_token": "ヨー"
+        }, 
+        {
+            "form_base": "ノ", 
+            "wtype": "和", 
+            "orth_base": "の", 
+            "pos": "助詞-格助詞", 
+            "ctype": "''", 
+            "lemma": "の", 
+            "cform": "''", 
+            "orth_token": "の", 
+            "reading": "ノ", 
+            "pron_token": "ノ"
+        }, 
+        {
+            "form_base": "ショッキ", 
+            "wtype": "漢", 
+            "orth_base": "食器", 
+            "pos": "名詞-普通名詞-一般", 
+            "ctype": "''", 
+            "lemma": "食器", 
+            "cform": "''", 
+            "orth_token": "食器", 
+            "reading": "ショッキ", 
+            "pron_token": "ショッキ"
+        }, 
+        {
+            "form_base": "ルイ", 
+            "wtype": "漢", 
+            "orth_base": "類", 
+            "pos": "接尾辞-名詞的-一般", 
+            "ctype": "''", 
+            "lemma": "類", 
+            "cform": "''", 
+            "orth_token": "類", 
+            "reading": "ルイ", 
+            "pron_token": "ルイ"
+        }, 
+        {
+            "form_base": "ダ", 
+            "wtype": "和", 
+            "orth_base": "だ", 
+            "pos": "助動詞", 
+            "ctype": "助動詞-ダ", 
+            "lemma": "だ", 
+            "cform": "仮定形-一般", 
+            "orth_token": "なら", 
+            "reading": "ダ", 
+            "pron_token": "ナラ"
+        }, 
+        {
+            "orth_token": "相当"
+        }, 
+        {
+            "orth_token": "の"
+        }, 
+        {
+            "orth_token": "量"
+        }, 
+        {
+            "orth_token": "が"
+        }, 
+        {
+            "orth_token": "焼成"
+        }, 
+        {
+            "orth_token": "できる"
+        }, 
+        {
+            "orth_token": "よう"
+        }, 
+        {
+            "orth_token": "に"
+        }, 
+        {
+            "orth_token": "なり"
+        }, 
+        {
+            "orth_token": "まし"
+        }, 
+        {
+            "orth_token": "た"
+        }, 
+        {
+            "is_eos": true, 
+            "orth_token": "。"
+        }, 
+        {
+            "is_bos": true, 
+            "orth_token": "ガス"
+        }, 
+        {
+            "orth_token": "窯"
+        }, 
+        {
+            "orth_token": "の"
+        }, 
+        {
+            "orth_token": "場合"
+        }, 
+        {
+            "orth_token": "も"
+        }, 
+        {
+            "orth_token": "、"
+        }, 
+        {
+            "orth_token": "従来"
+        }, 
+        {
+            "orth_token": "より"
+        }, 
+        {
+            "orth_token": "はるか"
+        }, 
+        {
+            "orth_token": "に"
+        }, 
+        {
+            "orth_token": "効果"
+        }, 
+        {
+            "orth_token": "的"
+        }, 
+        {
+            "orth_token": "に"
+        }, 
+        {
+            "orth_token": "築く"
+        }, 
+        {
+            "orth_token": "こと"
+        }, 
+        {
+            "orth_token": "が"
+        }, 
+        {
+            "orth_token": "でき"
+        }, 
+        {
+            "orth_token": "、"
+        }, 
+        {
+            "orth_token": "さらに"
+        }, 
+        {
+            "orth_token": "楽焼き"
+        }, 
+        {
+            "orth_token": "の"
+        }, 
+        {
+            "orth_token": "場合"
+        }, 
+        {
+            "orth_token": "は"
+        }, 
+        {
+            "orth_token": "、"
+        }, 
+        {
+            "orth_token": "簡単"
+        }, 
+        {
+            "orth_token": "な"
+        }, 
+        {
+            "orth_token": "金属"
+        }, 
+        {
+            "orth_token": "製"
+        }
+    ], 
+    "cr_status": 1, 
+    "orth_base": "の", 
+    "lemma_id": 28989, 
+    "ctype": "''", 
+    "sentence_id": 798317, 
+    "corpus_name": "LB", 
+    "subcorpus_name": "図書館・書籍", 
+    "genre": "7 芸術・美術", 
+    "fixed_length": true, 
+    "lcontext": [
+        {
+            "orth_token": "半分"
+        }, 
+        {
+            "orth_token": "の"
+        }, 
+        {
+            "orth_token": "大き"
+        }, 
+        {
+            "orth_token": "さ"
+        }, 
+        {
+            "orth_token": "で"
+        }, 
+        {
+            "orth_token": "、"
+        }, 
+        {
+            "orth_token": "しかも"
+        }, 
+        {
+            "orth_token": "焼成"
+        }, 
+        {
+            "orth_token": "室"
+        }, 
+        {
+            "orth_token": "は"
+        }, 
+        {
+            "orth_token": "ほとんど"
+        }, 
+        {
+            "orth_token": "同じ"
+        }, 
+        {
+            "orth_token": "容積"
+        }, 
+        {
+            "orth_token": "の"
+        }, 
+        {
+            "orth_token": "窯"
+        }, 
+        {
+            "orth_token": "が"
+        }, 
+        {
+            "orth_token": "築ける"
+        }, 
+        {
+            "orth_token": "よう"
+        }, 
+        {
+            "orth_token": "に"
+        }, 
+        {
+            "orth_token": "なっ"
+        }, 
+        {
+            "orth_token": "た"
+        }, 
+        {
+            "orth_token": "の"
+        }, 
+        {
+            "orth_token": "です"
+        }, 
+        {
+            "is_eos": true, 
+            "orth_token": "。"
+        }, 
+        {
+            "is_bos": true, 
+            "orth_token": "同じ"
+        }, 
+        {
+            "orth_token": "よう"
+        }, 
+        {
+            "orth_token": "に"
+        }, 
+        {
+            "orth_token": "、"
+        }, 
+        {
+            "orth_token": "使用"
+        }, 
+        {
+            "orth_token": "する"
+        }, 
+        {
+            "orth_token": "燃料"
+        }, 
+        {
+            "orth_token": "を"
+        }, 
+        {
+            "orth_token": "節約"
+        }, 
+        {
+            "orth_token": "する"
+        }, 
+        {
+            "orth_token": "こと"
+        }, 
+        {
+            "orth_token": "に"
+        }, 
+        {
+            "orth_token": "よっ"
+        }, 
+        {
+            "orth_token": "て"
+        }, 
+        {
+            "orth_token": "、"
+        }, 
+        {
+            "orth_token": "焼成"
+        }, 
+        {
+            "form_base": "ヒヨウ", 
+            "wtype": "漢", 
+            "orth_base": "費用", 
+            "pos": "名詞-普通名詞-一般", 
+            "ctype": "''", 
+            "lemma": "費用", 
+            "cform": "''", 
+            "orth_token": "費用", 
+            "reading": "ヒヨウ", 
+            "pron_token": "ヒヨー"
+        }, 
+        {
+            "form_base": "ヲ", 
+            "wtype": "和", 
+            "orth_base": "を", 
+            "pos": "助詞-格助詞", 
+            "ctype": "''", 
+            "lemma": "を", 
+            "cform": "''", 
+            "orth_token": "を", 
+            "reading": "ヲ", 
+            "pron_token": "オ"
+        }, 
+        {
+            "form_base": "ケイゲン", 
+            "wtype": "漢", 
+            "orth_base": "軽減", 
+            "pos": "名詞-普通名詞-サ変可能", 
+            "ctype": "''", 
+            "lemma": "軽減", 
+            "cform": "''", 
+            "orth_token": "軽減", 
+            "reading": "ケイゲン", 
+            "pron_token": "ケーゲン"
+        }, 
+        {
+            "form_base": "スル", 
+            "wtype": "和", 
+            "orth_base": "する", 
+            "pos": "動詞-非自立可能", 
+            "ctype": "サ行変格", 
+            "lemma": "為る", 
+            "cform": "連体形-一般", 
+            "orth_token": "する", 
+            "reading": "スル", 
+            "pron_token": "スル"
+        }, 
+        {
+            "form_base": "コト", 
+            "wtype": "和", 
+            "orth_base": "こと", 
+            "pos": "名詞-普通名詞-一般", 
+            "ctype": "''", 
+            "lemma": "事", 
+            "cform": "''", 
+            "orth_token": "こと", 
+            "reading": "コト", 
+            "pron_token": "コト"
+        }, 
+        {
+            "form_base": "ガ", 
+            "wtype": "和", 
+            "orth_base": "が", 
+            "pos": "助詞-格助詞", 
+            "ctype": "''", 
+            "lemma": "が", 
+            "cform": "''", 
+            "orth_token": "が", 
+            "reading": "ガ", 
+            "pron_token": "ガ"
+        }, 
+        {
+            "form_base": "デキル", 
+            "wtype": "和", 
+            "orth_base": "できる", 
+            "pos": "動詞-非自立可能", 
+            "ctype": "上一段-カ行", 
+            "lemma": "出来る", 
+            "cform": "連用形-一般", 
+            "orth_token": "でき", 
+            "reading": "デキル", 
+            "pron_token": "デキ"
+        }, 
+        {
+            "form_base": "", 
+            "wtype": "記号", 
+            "orth_base": "、", 
+            "pos": "補助記号-読点", 
+            "ctype": "''", 
+            "lemma": "、", 
+            "cform": "''", 
+            "orth_token": "、", 
+            "reading": "", 
+            "pron_token": ""
+        }, 
+        {
+            "form_base": "カナリ", 
+            "wtype": "混", 
+            "orth_base": "かなり", 
+            "pos": "副詞", 
+            "ctype": "''", 
+            "lemma": "可成", 
+            "cform": "''", 
+            "orth_token": "かなり", 
+            "reading": "カナリ", 
+            "pron_token": "カナリ"
+        }, 
+        {
+            "form_base": "コガタ", 
+            "wtype": "和", 
+            "orth_base": "小型", 
+            "pos": "名詞-普通名詞-形状詞可能", 
+            "ctype": "''", 
+            "lemma": "小型", 
+            "cform": "''", 
+            "orth_token": "小型", 
+            "reading": "コガタ", 
+            "pron_token": "コガタ"
+        }
+    ], 
+    "genre1": "7 芸術・美術", 
+    "publisher": "日貿出版社", 
+    "genre3": "0072", 
+    "genre2": "751", 
+    "genre4": null, 
+    "keyword": [
+        {
+            "orth_token": "の"
+        }
+    ], 
+    "gender": "男/男", 
+    "wtype": "和", 
+    "title": "世界の陶芸史", 
+    "meaning": "", 
+    "matched_position": 2970, 
+    "credit": null, 
+    "token_offset": 2970, 
+    "token_order": 1860, 
+    "s_orth_token_open": 253, 
+    "pron_token": "ノ", 
+    "bibliography_id": 5166
+}
+time 1 49.6285018921
